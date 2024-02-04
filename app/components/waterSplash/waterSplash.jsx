@@ -1,8 +1,9 @@
 // src/FlowerField.js
 import React, { useRef, useEffect } from 'react';
 import * as THREE from 'three';
+import './waterSplash.css';
 
-const waterSplash = () => {
+const WaterSplash = () => {
   const group = useRef();
 
   useEffect(() => {
@@ -73,4 +74,4 @@ const waterSplash = () => {
   return <div ref={group} />;
 };
 
-export default waterSplash;
+export default WaterSplash;

@@ -1,0 +1,26 @@
+/* css-side-effects-plugin-ns:app/components/HeaderBackground/HeaderBackground.css */
+/* css-side-effects-plugin-ns:app/components/waterSplash/waterSplash.css */
+.flower-field {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* css-side-effects-plugin-ns:app/components/HeaderPage/HeaderPage.css */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.subtitle {
+  font-size: 18px;
+}
+/*# sourceMappingURL=/build/routes/_index-F5DL67O4.css.map */
