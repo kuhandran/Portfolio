@@ -94,38 +94,18 @@ __export(index_exports, {
   default: () => Index,
   headers: () => headers
 });
-import { jsxDEV as jsxDEV2 } from "react/jsx-dev-runtime";
-function headers({
-  loaderHeaders,
-  parentHeaders
-}) {
-  return console.log(
-    "This is an example of how to set caching headers for a route, feel free to change the value of 60 seconds or remove the header"
-  ), {
-    // This is an example of how to set caching headers for a route
-    // For more info on headers in Remix, see: https://remix.run/docs/en/v1/route/headers
-    "Cache-Control": "public, max-age=60, s-maxage=60"
-  };
-}
-function Index() {
-  return /* @__PURE__ */ jsxDEV2("header", {}, void 0, !1, {
-    fileName: "app/routes/_index.tsx",
-    lineNumber: 22,
-    columnNumber: 7
-  }, this);
-}
 
 // app/routes/header.jsx
 var header_exports = {};
 __export(header_exports, {
-  default: () => header
+  default: () => Headers
 });
 import "react";
 
 // app/components/waterSplash.jsx
 import { useRef, useEffect } from "react";
 import * as THREE from "three";
-import { jsxDEV as jsxDEV3 } from "react/jsx-dev-runtime";
+import { jsxDEV as jsxDEV2 } from "react/jsx-dev-runtime";
 var waterSplash = () => {
   let group = useRef();
   return useEffect(() => {
@@ -152,7 +132,7 @@ var waterSplash = () => {
     return window.addEventListener("resize", handleResize), () => {
       document.body.removeChild(renderer.domElement), window.removeEventListener("resize", handleResize);
     };
-  }, []), /* @__PURE__ */ jsxDEV3("div", { ref: group }, void 0, !1, {
+  }, []), /* @__PURE__ */ jsxDEV2("div", { ref: group }, void 0, !1, {
     fileName: "app/components/waterSplash.jsx",
     lineNumber: 73,
     columnNumber: 10
@@ -160,12 +140,34 @@ var waterSplash = () => {
 }, waterSplash_default = waterSplash;
 
 // app/routes/header.jsx
-import { jsxDEV as jsxDEV4 } from "react/jsx-dev-runtime";
-function header() {
-  return /* @__PURE__ */ jsxDEV4(waterSplash_default, {}, void 0, !1, {
+import { jsxDEV as jsxDEV3 } from "react/jsx-dev-runtime";
+function Headers() {
+  return /* @__PURE__ */ jsxDEV3(waterSplash_default, {}, void 0, !1, {
     fileName: "app/routes/header.jsx",
     lineNumber: 7,
     columnNumber: 11
+  }, this);
+}
+
+// app/routes/_index.tsx
+import { jsxDEV as jsxDEV4 } from "react/jsx-dev-runtime";
+function headers({
+  loaderHeaders,
+  parentHeaders
+}) {
+  return console.log(
+    "This is an example of how to set caching headers for a route, feel free to change the value of 60 seconds or remove the header"
+  ), {
+    // This is an example of how to set caching headers for a route
+    // For more info on headers in Remix, see: https://remix.run/docs/en/v1/route/headers
+    "Cache-Control": "public, max-age=60, s-maxage=60"
+  };
+}
+function Index() {
+  return /* @__PURE__ */ jsxDEV4(Headers, {}, void 0, !1, {
+    fileName: "app/routes/_index.tsx",
+    lineNumber: 22,
+    columnNumber: 7
   }, this);
 }
 
@@ -259,7 +261,7 @@ function About() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-FAPNTWT2.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-YLW4AXUA.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-TSBYFMHC.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-Q3PZCZ7H.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-E6IXI73B.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-P4WBK2WF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/experince": { id: "routes/experince", parentId: "root", path: "experince", index: void 0, caseSensitive: void 0, module: "/build/routes/experince-OXEKRUWH.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/header": { id: "routes/header", parentId: "root", path: "header", index: void 0, caseSensitive: void 0, module: "/build/routes/header-GCLU44T7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/projects": { id: "routes/projects", parentId: "root", path: "projects", index: void 0, caseSensitive: void 0, module: "/build/routes/projects-SCSWS2W4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "ec74e579", hmr: { runtime: "/build/_shared/chunk-TSBYFMHC.js", timestamp: 1707057303773 }, url: "/build/manifest-EC74E579.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-FAPNTWT2.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-YLW4AXUA.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-TSBYFMHC.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-Q3PZCZ7H.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-ML2ROP4L.js", imports: ["/build/_shared/chunk-CHOMTLOI.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-P4WBK2WF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/experince": { id: "routes/experince", parentId: "root", path: "experince", index: void 0, caseSensitive: void 0, module: "/build/routes/experince-OXEKRUWH.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/header": { id: "routes/header", parentId: "root", path: "header", index: void 0, caseSensitive: void 0, module: "/build/routes/header-JL6IOSE4.js", imports: ["/build/_shared/chunk-CHOMTLOI.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/projects": { id: "routes/projects", parentId: "root", path: "projects", index: void 0, caseSensitive: void 0, module: "/build/routes/projects-SCSWS2W4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "71a317aa", hmr: { runtime: "/build/_shared/chunk-TSBYFMHC.js", timestamp: 1707057524347 }, url: "/build/manifest-71A317AA.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var mode = "development", assetsBuildDirectory = "public/build", future = { v3_fetcherPersist: !1, v3_relativeSplatPath: !1, v3_throwAbortReason: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

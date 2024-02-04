@@ -1,4 +1,4 @@
-import header from './header.jsx';
+import Headers from './header.jsx';
 
 export function headers({
   loaderHeaders,
@@ -19,6 +19,6 @@ export function headers({
 
 export default function Index() {
   return (
-      <header/>
+      <Headers/>
   );
 }

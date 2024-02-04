@@ -1,4 +1,7 @@
 import {
+  Headers
+} from "/build/_shared/chunk-CHOMTLOI.js";
+import {
   createHotContext
 } from "/build/_shared/chunk-TSBYFMHC.js";
 import "/build/_shared/chunk-UWV35TSL.js";
@@ -29,12 +32,12 @@ if (import.meta) {
     //@ts-expect-error
     "app/routes/_index.tsx"
   );
-  import.meta.hot.lastModified = "1707057286597.8848";
+  import.meta.hot.lastModified = "1707057523991.1196";
 }
 function Index() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("header", {}, void 0, false, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Headers, {}, void 0, false, {
     fileName: "app/routes/_index.tsx",
-    lineNumber: 33,
+    lineNumber: 34,
     columnNumber: 10
   }, this);
 }
@@ -46,4 +49,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/_index-E6IXI73B.js.map
+//# sourceMappingURL=/build/routes/_index-ML2ROP4L.js.map

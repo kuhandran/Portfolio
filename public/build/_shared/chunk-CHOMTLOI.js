@@ -1,7 +1,6 @@
 import {
   createHotContext
 } from "/build/_shared/chunk-TSBYFMHC.js";
-import "/build/_shared/chunk-UWV35TSL.js";
 import {
   require_jsx_dev_runtime
 } from "/build/_shared/chunk-XU7DNSPJ.js";
@@ -19544,22 +19543,40 @@ var waterSplash_default = waterSplash;
 
 // app/routes/header.jsx
 var import_jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime(), 1);
+if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
+  console.warn("remix:hmr: React Fast Refresh only works when the Remix compiler is running in development mode.");
+} else {
+  prevRefreshReg = window.$RefreshReg$;
+  prevRefreshSig = window.$RefreshSig$;
+  window.$RefreshReg$ = (type, id) => {
+    window.$RefreshRuntime$.register(type, '"app/routes/header.jsx"' + id);
+  };
+  window.$RefreshSig$ = window.$RefreshRuntime$.createSignatureFunctionForTransform;
+}
+var prevRefreshReg;
+var prevRefreshSig;
 if (import.meta) {
   import.meta.hot = createHotContext(
     //@ts-expect-error
     "app/routes/header.jsx"
   );
-  import.meta.hot.lastModified = "1707057303357.7246";
+  import.meta.hot.lastModified = "1707057504128.3816";
 }
-function header() {
+function Headers2() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(waterSplash_default, {}, void 0, false, {
     fileName: "app/routes/header.jsx",
-    lineNumber: 18,
-    columnNumber: 11
+    lineNumber: 26,
+    columnNumber: 10
   }, this);
 }
+_c = Headers2;
+var _c;
+$RefreshReg$(_c, "Headers");
+window.$RefreshReg$ = prevRefreshReg;
+window.$RefreshSig$ = prevRefreshSig;
+
 export {
-  header as default
+  Headers2 as Headers
 };
 /*! Bundled license information:
 
@@ -19570,4 +19587,4 @@ three/build/three.module.js:
    * SPDX-License-Identifier: MIT
    *)
 */
-//# sourceMappingURL=/build/routes/header-GCLU44T7.js.map
+//# sourceMappingURL=/build/_shared/chunk-CHOMTLOI.js.map
