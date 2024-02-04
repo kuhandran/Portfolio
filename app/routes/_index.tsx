@@ -1,4 +1,6 @@
 import Headers from './header.jsx';
+import HeaderPage from './../components/HeaderPage/HeaderPage.jsx';
+import './index.css';
 
 export function headers({
   loaderHeaders,
@@ -19,6 +21,9 @@ export function headers({
 
 export default function Index() {
   return (
+    <div className="page">
+      <HeaderPage/>
       <Headers/>
+    </div>
   );
 }
