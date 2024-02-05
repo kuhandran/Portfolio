@@ -350,7 +350,7 @@ video {
 
 /* css-side-effects-plugin-ns:app/components/HeaderBackground/HeaderBackground.css */
 
-/* css-side-effects-plugin-ns:app/components/waterSplash/waterSplash.css */
+/* css-side-effects-plugin-ns:app/components/WaterSplash/waterSplash.css */
 .flower-field {
   position: absolute;
   top: 0;
@@ -360,14 +360,15 @@ video {
   overflow: hidden;
 }
 
-/* css-side-effects-plugin-ns:app/styles/index.css */
+/* css-side-effects-plugin-ns:app/components/HeaderPage/HeaderPage.css */
 .header {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #fff;
+  background: transparent;
+  background-color: transparent;
   font-family: "Arial", sans-serif;
 }
 .title {
@@ -378,4 +379,4 @@ video {
   font-size: 1.5rem;
   margin-top: 10px;
 }
-/*# sourceMappingURL=/build/css-bundle-EVO3ZC37.css.map */
+/*# sourceMappingURL=/build/css-bundle-JZDPKJ4A.css.map */

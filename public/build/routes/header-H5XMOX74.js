@@ -1,6 +1,6 @@
 import {
   Headers
-} from "/build/_shared/chunk-T2KK6WHQ.js";
+} from "/build/_shared/chunk-5Z6LCAEX.js";
 import "/build/_shared/chunk-TSBYFMHC.js";
 import "/build/_shared/chunk-UWV35TSL.js";
 import "/build/_shared/chunk-XU7DNSPJ.js";
@@ -9,4 +9,4 @@ import "/build/_shared/chunk-PNG5AS42.js";
 export {
   Headers as default
 };
-//# sourceMappingURL=/build/routes/header-Y2JOAYAC.js.map
+//# sourceMappingURL=/build/routes/header-H5XMOX74.js.map

@@ -1,5 +1,5 @@
 /* css-side-effects-plugin-ns:app/components/HeaderBackground/HeaderBackground.css */
-/* css-side-effects-plugin-ns:app/components/waterSplash/waterSplash.css */
+/* css-side-effects-plugin-ns:app/components/WaterSplash/waterSplash.css */
 .flower-field {
   position: absolute;
   top: 0;
@@ -9,14 +9,15 @@
   overflow: hidden;
 }
 
-/* css-side-effects-plugin-ns:app/styles/index.css */
+/* css-side-effects-plugin-ns:app/components/HeaderPage/HeaderPage.css */
 .header {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #fff;
+  background: transparent;
+  background-color: transparent;
   font-family: "Arial", sans-serif;
 }
 .title {
@@ -27,4 +28,4 @@
   font-size: 1.5rem;
   margin-top: 10px;
 }
-/*# sourceMappingURL=/build/routes/_index-7FCZDT5I.css.map */
+/*# sourceMappingURL=/build/routes/header-X2Y4KFQJ.css.map */

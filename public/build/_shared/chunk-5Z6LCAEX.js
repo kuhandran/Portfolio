@@ -14,7 +14,7 @@ import {
 // app/components/HeaderBackground/HeaderBackground.jsx
 var import_react2 = __toESM(require_react(), 1);
 
-// app/components/waterSplash/WaterSplash.jsx
+// app/components/WaterSplash/WaterSplash.jsx
 var import_react = __toESM(require_react(), 1);
 
 // node_modules/three/build/three.module.js
@@ -19479,7 +19479,7 @@ if (typeof window !== "undefined") {
   }
 }
 
-// app/components/waterSplash/WaterSplash.jsx
+// app/components/WaterSplash/WaterSplash.jsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime(), 1);
 if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
   console.warn("remix:hmr: React Fast Refresh only works when the Remix compiler is running in development mode.");
@@ -19487,7 +19487,7 @@ if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
   prevRefreshReg = window.$RefreshReg$;
   prevRefreshSig = window.$RefreshSig$;
   window.$RefreshReg$ = (type, id) => {
-    window.$RefreshRuntime$.register(type, '"app/components/waterSplash/WaterSplash.jsx"' + id);
+    window.$RefreshRuntime$.register(type, '"app/components/WaterSplash/WaterSplash.jsx"' + id);
   };
   window.$RefreshSig$ = window.$RefreshRuntime$.createSignatureFunctionForTransform;
 }
@@ -19497,7 +19497,7 @@ var _s = $RefreshSig$();
 if (import.meta) {
   import.meta.hot = createHotContext(
     //@ts-expect-error
-    "app/components/waterSplash/WaterSplash.jsx"
+    "app/components/WaterSplash/WaterSplash.jsx"
   );
 }
 var WaterSplash = () => {
@@ -19554,7 +19554,7 @@ var WaterSplash = () => {
     };
   }, []);
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { ref: group }, void 0, false, {
-    fileName: "app/components/waterSplash/WaterSplash.jsx",
+    fileName: "app/components/WaterSplash/WaterSplash.jsx",
     lineNumber: 80,
     columnNumber: 10
   }, this);
@@ -19588,7 +19588,7 @@ if (import.meta) {
   );
 }
 var HeaderPage = () => {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "bg-transparent", children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "header", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "text-3xl font-bold underline", children: "Kuhandran Samudrapandiyan" }, void 0, false, {
       fileName: "app/components/HeaderPage/HeaderPage.jsx",
       lineNumber: 24,
@@ -19707,4 +19707,4 @@ three/build/three.module.js:
    * SPDX-License-Identifier: MIT
    *)
 */
-//# sourceMappingURL=/build/_shared/chunk-T2KK6WHQ.js.map
+//# sourceMappingURL=/build/_shared/chunk-5Z6LCAEX.js.map

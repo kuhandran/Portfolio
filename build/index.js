@@ -28,7 +28,7 @@ import {
 } from "@remix-run/react";
 
 // css-bundle-plugin-ns:@remix-run/css-bundle
-var cssBundleHref = "/build/css-bundle-EVO3ZC37.css";
+var cssBundleHref = "/build/css-bundle-JZDPKJ4A.css";
 
 // app/root.tsx
 import { jsxDEV } from "react/jsx-dev-runtime";
@@ -113,7 +113,7 @@ import "react";
 // app/components/HeaderBackground/HeaderBackground.jsx
 import "react";
 
-// app/components/waterSplash/WaterSplash.jsx
+// app/components/WaterSplash/WaterSplash.jsx
 import { useRef, useEffect } from "react";
 import * as THREE from "three";
 import { jsxDEV as jsxDEV2 } from "react/jsx-dev-runtime";
@@ -144,7 +144,7 @@ var WaterSplash = () => {
       document.body.removeChild(renderer.domElement), window.removeEventListener("resize", handleResize);
     };
   }, []), /* @__PURE__ */ jsxDEV2("div", { ref: group }, void 0, !1, {
-    fileName: "app/components/waterSplash/WaterSplash.jsx",
+    fileName: "app/components/WaterSplash/WaterSplash.jsx",
     lineNumber: 74,
     columnNumber: 10
   }, this);
@@ -152,7 +152,7 @@ var WaterSplash = () => {
 
 // app/components/HeaderPage/HeaderPage.jsx
 import { jsxDEV as jsxDEV3 } from "react/jsx-dev-runtime";
-var HeaderPage = () => /* @__PURE__ */ jsxDEV3("div", { className: "bg-transparent", children: [
+var HeaderPage = () => /* @__PURE__ */ jsxDEV3("div", { className: "header", children: [
   /* @__PURE__ */ jsxDEV3("div", { className: "text-3xl font-bold underline", children: "Kuhandran Samudrapandiyan" }, void 0, !1, {
     fileName: "app/components/HeaderPage/HeaderPage.jsx",
     lineNumber: 7,
@@ -318,7 +318,7 @@ function About() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-FAPNTWT2.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-YLW4AXUA.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-TSBYFMHC.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-6JFEIZRU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-YBWGTD67.js", imports: ["/build/_shared/chunk-T2KK6WHQ.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-P4WBK2WF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/experince": { id: "routes/experince", parentId: "root", path: "experince", index: void 0, caseSensitive: void 0, module: "/build/routes/experince-OXEKRUWH.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/header": { id: "routes/header", parentId: "root", path: "header", index: void 0, caseSensitive: void 0, module: "/build/routes/header-Y2JOAYAC.js", imports: ["/build/_shared/chunk-T2KK6WHQ.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/projects": { id: "routes/projects", parentId: "root", path: "projects", index: void 0, caseSensitive: void 0, module: "/build/routes/projects-SCSWS2W4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "a3d476a8", hmr: { runtime: "/build/_shared/chunk-TSBYFMHC.js", timestamp: 1707125539009 }, url: "/build/manifest-A3D476A8.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-FAPNTWT2.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-YLW4AXUA.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-TSBYFMHC.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-YJK7RMQJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-M6U576YA.js", imports: ["/build/_shared/chunk-5Z6LCAEX.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-P4WBK2WF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/experince": { id: "routes/experince", parentId: "root", path: "experince", index: void 0, caseSensitive: void 0, module: "/build/routes/experince-OXEKRUWH.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/header": { id: "routes/header", parentId: "root", path: "header", index: void 0, caseSensitive: void 0, module: "/build/routes/header-H5XMOX74.js", imports: ["/build/_shared/chunk-5Z6LCAEX.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/projects": { id: "routes/projects", parentId: "root", path: "projects", index: void 0, caseSensitive: void 0, module: "/build/routes/projects-SCSWS2W4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "086e06c9", hmr: { runtime: "/build/_shared/chunk-TSBYFMHC.js", timestamp: 1707126042333 }, url: "/build/manifest-086E06C9.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var mode = "development", assetsBuildDirectory = "public/build", future = { v3_fetcherPersist: !1, v3_relativeSplatPath: !1, v3_throwAbortReason: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
