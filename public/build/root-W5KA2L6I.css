@@ -1,14 +1,15 @@
-/* app/tailwind.css */
+/* css-side-effects-plugin-ns:app/root.css */
+/* css-side-effects-plugin-ns:app/tailwind.css */
 *,
-:before,
-:after {
+::before,
+::after {
   box-sizing: border-box;
   border-width: 0;
   border-style: solid;
   border-color: #e5e7eb;
 }
-:before,
-:after {
+::before,
+::after {
   --tw-content: "";
 }
 html,
@@ -30,7 +31,7 @@ html,
     sans-serif,
     "Apple Color Emoji",
     "Segoe UI Emoji",
-    Segoe UI Symbol,
+    "Segoe UI Symbol",
     "Noto Color Emoji";
   font-feature-settings: normal;
   font-variation-settings: normal;
@@ -77,8 +78,8 @@ pre {
     Menlo,
     Monaco,
     Consolas,
-    Liberation Mono,
-    Courier New,
+    "Liberation Mono",
+    "Courier New",
     monospace;
   font-feature-settings: normal;
   font-variation-settings: normal;
@@ -95,10 +96,10 @@ sup {
   vertical-align: baseline;
 }
 sub {
-  bottom: -.25em;
+  bottom: -0.25em;
 }
 sup {
-  top: -.5em;
+  top: -0.5em;
 }
 table {
   text-indent: 0;
@@ -231,8 +232,8 @@ video {
   display: none;
 }
 *,
-:before,
-:after {
+::before,
+::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -257,7 +258,7 @@ video {
   --tw-ring-inset: ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgba(59, 130, 246, .5);
+  --tw-ring-color: rgba(59, 130, 246, 0.5);
   --tw-ring-offset-shadow: 0 0 rgba(0,0,0,0);
   --tw-ring-shadow: 0 0 rgba(0,0,0,0);
   --tw-shadow: 0 0 rgba(0,0,0,0);
@@ -306,7 +307,7 @@ video {
   --tw-ring-inset: ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgba(59, 130, 246, .5);
+  --tw-ring-color: rgba(59, 130, 246, 0.5);
   --tw-ring-offset-shadow: 0 0 rgba(0,0,0,0);
   --tw-ring-shadow: 0 0 rgba(0,0,0,0);
   --tw-shadow: 0 0 rgba(0,0,0,0);
@@ -330,4 +331,20 @@ video {
   --tw-backdrop-saturate: ;
   --tw-backdrop-sepia: ;
 }
-/*# sourceMappingURL=/build/_assets/tailwind-ON7GL3RU.css.map */
+.resize {
+  resize: both;
+}
+.bg-transparent {
+  background-color: transparent;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.underline {
+  text-decoration-line: underline;
+}
+/*# sourceMappingURL=/build/root-W5KA2L6I.css.map */
