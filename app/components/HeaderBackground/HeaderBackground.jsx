@@ -1,7 +1,7 @@
 // Header.js
 import React from 'react';
 import './HeaderBackground.css';
-import {WaterSplash} from "../WaterSplash/tester";
+import {WaterSplash} from "../WaterSplash/WaterSplash";
 import HeaderPage from "../HeaderPage/HeaderPage";
 
 
