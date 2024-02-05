@@ -1,7 +1,7 @@
 // src/FlowerField.js
 import React, { useRef, useEffect } from 'react';
 import * as THREE from 'three';
-import './waterSplash.css';
+import './WaterSplash.css';
 
 const WaterSplash = () => {
   const group = useRef();
