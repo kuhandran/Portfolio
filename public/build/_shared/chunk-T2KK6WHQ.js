@@ -12,7 +12,7 @@ import {
 } from "/build/_shared/chunk-PNG5AS42.js";
 
 // app/components/HeaderBackground/HeaderBackground.jsx
-var import_react3 = __toESM(require_react(), 1);
+var import_react2 = __toESM(require_react(), 1);
 
 // app/components/waterSplash/WaterSplash.jsx
 var import_react = __toESM(require_react(), 1);
@@ -19568,35 +19568,49 @@ window.$RefreshReg$ = prevRefreshReg;
 window.$RefreshSig$ = prevRefreshSig;
 
 // app/components/HeaderPage/HeaderPage.jsx
-var import_react2 = __toESM(require_react(), 1);
 var import_jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime(), 1);
+if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
+  console.warn("remix:hmr: React Fast Refresh only works when the Remix compiler is running in development mode.");
+} else {
+  prevRefreshReg = window.$RefreshReg$;
+  prevRefreshSig = window.$RefreshSig$;
+  window.$RefreshReg$ = (type, id) => {
+    window.$RefreshRuntime$.register(type, '"app/components/HeaderPage/HeaderPage.jsx"' + id);
+  };
+  window.$RefreshSig$ = window.$RefreshRuntime$.createSignatureFunctionForTransform;
+}
+var prevRefreshReg;
+var prevRefreshSig;
 if (import.meta) {
   import.meta.hot = createHotContext(
     //@ts-expect-error
     "app/components/HeaderPage/HeaderPage.jsx"
   );
 }
-var HeaderPage = class extends import_react2.Component {
-  render() {
-    return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "bg-transparent", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "text-3xl font-bold underline", children: "Kuhandran Samudrapandiyan" }, void 0, false, {
-        fileName: "app/components/HeaderPage/HeaderPage.jsx",
-        lineNumber: 21,
-        columnNumber: 7
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "subtitle", children: "Innovative Solution Engineer cum Project Manager" }, void 0, false, {
-        fileName: "app/components/HeaderPage/HeaderPage.jsx",
-        lineNumber: 22,
-        columnNumber: 7
-      }, this)
-    ] }, void 0, true, {
+var HeaderPage = () => {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "bg-transparent", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "text-3xl font-bold underline", children: "Kuhandran Samudrapandiyan" }, void 0, false, {
       fileName: "app/components/HeaderPage/HeaderPage.jsx",
-      lineNumber: 20,
+      lineNumber: 24,
       columnNumber: 7
-    }, this);
-  }
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "subtitle", children: "Innovative Solution Engineer cum Project Manager" }, void 0, false, {
+      fileName: "app/components/HeaderPage/HeaderPage.jsx",
+      lineNumber: 25,
+      columnNumber: 7
+    }, this)
+  ] }, void 0, true, {
+    fileName: "app/components/HeaderPage/HeaderPage.jsx",
+    lineNumber: 23,
+    columnNumber: 10
+  }, this);
 };
+_c2 = HeaderPage;
 var HeaderPage_default = HeaderPage;
+var _c2;
+$RefreshReg$(_c2, "HeaderPage");
+window.$RefreshReg$ = prevRefreshReg;
+window.$RefreshSig$ = prevRefreshSig;
 
 // app/components/HeaderBackground/HeaderBackground.jsx
 var import_jsx_dev_runtime3 = __toESM(require_jsx_dev_runtime(), 1);
@@ -19640,10 +19654,10 @@ var HeaderBackground = () => {
     columnNumber: 10
   }, this);
 };
-_c2 = HeaderBackground;
+_c3 = HeaderBackground;
 var HeaderBackground_default = HeaderBackground;
-var _c2;
-$RefreshReg$(_c2, "HeaderBackground");
+var _c3;
+$RefreshReg$(_c3, "HeaderBackground");
 window.$RefreshReg$ = prevRefreshReg;
 window.$RefreshSig$ = prevRefreshSig;
 
@@ -19675,9 +19689,9 @@ function Headers2() {
     columnNumber: 10
   }, this);
 }
-_c3 = Headers2;
-var _c3;
-$RefreshReg$(_c3, "Headers");
+_c4 = Headers2;
+var _c4;
+$RefreshReg$(_c4, "Headers");
 window.$RefreshReg$ = prevRefreshReg;
 window.$RefreshSig$ = prevRefreshSig;
 
@@ -19693,4 +19707,4 @@ three/build/three.module.js:
    * SPDX-License-Identifier: MIT
    *)
 */
-//# sourceMappingURL=/build/_shared/chunk-TKLZG2P4.js.map
+//# sourceMappingURL=/build/_shared/chunk-T2KK6WHQ.js.map

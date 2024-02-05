@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["waterSplash.css"],
-  "sourcesContent": ["/* FlowerField.css */\n.flower-field {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    overflow: hidden;\n  }\n  "],
-  "mappings": ";;AACA;AACI;AACA;AACA;AACA;AACA;AACA;;",
-  "names": []
-}

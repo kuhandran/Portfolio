@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/components/HeaderPage/HeaderPage.css"],
-  "sourcesContent": [".header {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    text-align: center;\n    color: #fff;\n    font-family: 'Arial', sans-serif;\n  }\n  \n  .title {\n    font-size: 4rem;\n    font-weight: bold;\n  }\n  \n  .subtitle {\n    font-size: 1.5rem;\n    margin-top: 10px;\n  }\n  "],
-  "mappings": ";AAAA;AACI;AACA;AACA;AACA;AACA;AACA;AACA;;AAGF;AACE;AACA;;AAGF;AACE;AACA;;",
-  "names": []
-}

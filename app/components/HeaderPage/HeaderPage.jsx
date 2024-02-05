@@ -1,17 +1,15 @@
-// Header.js
-import React, { Component } from 'react';
-import styles from './HeaderPage.css';
+// Header.jsx
+import "../../styles/index.css"
 
-
-class HeaderPage extends Component {
-  render() {
-    return (
+const HeaderPage = () => {
+  return (
     <div className='bg-transparent'>
-      <div className="text-3xl font-bold underline" >Kuhandran Samudrapandiyan</div>
+      <div className="text-3xl font-bold underline">Kuhandran Samudrapandiyan</div>
       <div className='subtitle'>Innovative Solution Engineer cum Project Manager</div>
     </div>
   );
-  };
 };
-export default HeaderPage;
 
+
+
+export default HeaderPage;
