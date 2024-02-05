@@ -19,6 +19,9 @@ import {
   __toESM
 } from "/build/_shared/chunk-PNG5AS42.js";
 
+// app/tailwind.css
+var tailwind_default = "/build/_assets/tailwind-UXXKKAFM.css";
+
 // app/root.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime(), 1);
 if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
@@ -38,60 +41,63 @@ if (import.meta) {
     //@ts-expect-error
     "app/root.tsx"
   );
-  import.meta.hot.lastModified = "1707016737666.2163";
 }
 var meta = () => [{
   charset: "utf-8",
-  title: "New Remix App",
+  title: "Kuhandran Portfolio",
   viewport: "width=device-width,initial-scale=1"
+}];
+var links = () => [{
+  rel: "stylesheet",
+  href: tailwind_default
 }];
 function App() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("html", { lang: "en", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("head", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Meta, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 30,
+        lineNumber: 35,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Links, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 31,
+        lineNumber: 36,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.tsx",
-      lineNumber: 29,
+      lineNumber: 34,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("body", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Outlet, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 34,
+        lineNumber: 39,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(ScrollRestoration, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 35,
+        lineNumber: 40,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Scripts, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 36,
+        lineNumber: 41,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(LiveReload, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 37,
+        lineNumber: 42,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.tsx",
-      lineNumber: 33,
+      lineNumber: 38,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/root.tsx",
-    lineNumber: 28,
+    lineNumber: 33,
     columnNumber: 10
   }, this);
 }
@@ -102,6 +108,7 @@ window.$RefreshReg$ = prevRefreshReg;
 window.$RefreshSig$ = prevRefreshSig;
 export {
   App as default,
+  links,
   meta
 };
-//# sourceMappingURL=/build/root-Q3PZCZ7H.js.map
+//# sourceMappingURL=/build/root-3GUY3HY6.js.map

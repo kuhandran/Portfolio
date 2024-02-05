@@ -4,11 +4,15 @@ import './HeaderBackground.css';
 import WaterSplash from "../waterSplash/WaterSplash";
 import HeaderPage from "../HeaderPage/HeaderPage";
 
+
 const HeaderBackground = () => {
   return (
     <div>
-        <WaterSplash/>
-        <HeaderPage/>
+        { <WaterSplash/>}
+        <div>
+            <HeaderPage/>
+        </div>
+        
     </div>
   );
 };

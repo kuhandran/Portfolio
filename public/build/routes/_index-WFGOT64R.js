@@ -1,6 +1,6 @@
 import {
   Headers
-} from "/build/_shared/chunk-NRCRWOMM.js";
+} from "/build/_shared/chunk-TKLZG2P4.js";
 import {
   createHotContext
 } from "/build/_shared/chunk-TSBYFMHC.js";
@@ -53,4 +53,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/_index-XYWR5PFL.js.map
+//# sourceMappingURL=/build/routes/_index-WFGOT64R.js.map

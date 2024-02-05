@@ -19570,48 +19570,33 @@ window.$RefreshSig$ = prevRefreshSig;
 // app/components/HeaderPage/HeaderPage.jsx
 var import_react2 = __toESM(require_react(), 1);
 var import_jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime(), 1);
-if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
-  console.warn("remix:hmr: React Fast Refresh only works when the Remix compiler is running in development mode.");
-} else {
-  prevRefreshReg = window.$RefreshReg$;
-  prevRefreshSig = window.$RefreshSig$;
-  window.$RefreshReg$ = (type, id) => {
-    window.$RefreshRuntime$.register(type, '"app/components/HeaderPage/HeaderPage.jsx"' + id);
-  };
-  window.$RefreshSig$ = window.$RefreshRuntime$.createSignatureFunctionForTransform;
-}
-var prevRefreshReg;
-var prevRefreshSig;
 if (import.meta) {
   import.meta.hot = createHotContext(
     //@ts-expect-error
     "app/components/HeaderPage/HeaderPage.jsx"
   );
 }
-var HeaderPage = () => {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "header", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "title", children: "Kuhandran Samudrapandiyan" }, void 0, false, {
+var HeaderPage = class extends import_react2.Component {
+  render() {
+    return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "bg-transparent", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "text-3xl font-bold underline", children: "Kuhandran Samudrapandiyan" }, void 0, false, {
+        fileName: "app/components/HeaderPage/HeaderPage.jsx",
+        lineNumber: 21,
+        columnNumber: 7
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "subtitle", children: "Innovative Solution Engineer cum Project Manager" }, void 0, false, {
+        fileName: "app/components/HeaderPage/HeaderPage.jsx",
+        lineNumber: 22,
+        columnNumber: 7
+      }, this)
+    ] }, void 0, true, {
       fileName: "app/components/HeaderPage/HeaderPage.jsx",
-      lineNumber: 25,
+      lineNumber: 20,
       columnNumber: 7
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "subtitle", children: "Innovative Solution Engineer cum Project Manager" }, void 0, false, {
-      fileName: "app/components/HeaderPage/HeaderPage.jsx",
-      lineNumber: 26,
-      columnNumber: 7
-    }, this)
-  ] }, void 0, true, {
-    fileName: "app/components/HeaderPage/HeaderPage.jsx",
-    lineNumber: 24,
-    columnNumber: 10
-  }, this);
+    }, this);
+  }
 };
-_c2 = HeaderPage;
 var HeaderPage_default = HeaderPage;
-var _c2;
-$RefreshReg$(_c2, "HeaderPage");
-window.$RefreshReg$ = prevRefreshReg;
-window.$RefreshSig$ = prevRefreshSig;
 
 // app/components/HeaderBackground/HeaderBackground.jsx
 var import_jsx_dev_runtime3 = __toESM(require_jsx_dev_runtime(), 1);
@@ -19638,9 +19623,13 @@ var HeaderBackground = () => {
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(WaterSplash_default, {}, void 0, false, {
       fileName: "app/components/HeaderBackground/HeaderBackground.jsx",
       lineNumber: 27,
-      columnNumber: 9
+      columnNumber: 10
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(HeaderPage_default, {}, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(HeaderPage_default, {}, void 0, false, {
+      fileName: "app/components/HeaderBackground/HeaderBackground.jsx",
+      lineNumber: 29,
+      columnNumber: 13
+    }, this) }, void 0, false, {
       fileName: "app/components/HeaderBackground/HeaderBackground.jsx",
       lineNumber: 28,
       columnNumber: 9
@@ -19651,10 +19640,10 @@ var HeaderBackground = () => {
     columnNumber: 10
   }, this);
 };
-_c3 = HeaderBackground;
+_c2 = HeaderBackground;
 var HeaderBackground_default = HeaderBackground;
-var _c3;
-$RefreshReg$(_c3, "HeaderBackground");
+var _c2;
+$RefreshReg$(_c2, "HeaderBackground");
 window.$RefreshReg$ = prevRefreshReg;
 window.$RefreshSig$ = prevRefreshSig;
 
@@ -19686,9 +19675,9 @@ function Headers2() {
     columnNumber: 10
   }, this);
 }
-_c4 = Headers2;
-var _c4;
-$RefreshReg$(_c4, "Headers");
+_c3 = Headers2;
+var _c3;
+$RefreshReg$(_c3, "Headers");
 window.$RefreshReg$ = prevRefreshReg;
 window.$RefreshSig$ = prevRefreshSig;
 
@@ -19704,4 +19693,4 @@ three/build/three.module.js:
    * SPDX-License-Identifier: MIT
    *)
 */
-//# sourceMappingURL=/build/_shared/chunk-NRCRWOMM.js.map
+//# sourceMappingURL=/build/_shared/chunk-TKLZG2P4.js.map

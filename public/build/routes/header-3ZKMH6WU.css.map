@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["css-side-effects-plugin-ns:app/components/waterSplash/waterSplash.css", "css-side-effects-plugin-ns:app/components/HeaderPage/HeaderPage.css"],
-  "sourcesContent": ["/* FlowerField.css */\n.flower-field {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    overflow: hidden;\n  }\n  ", "/* Header.css */\n.header {\n    background-color: #333;\n    color: #fff;\n    padding: 20px;\n    text-align: center;\n  }\n  \n  .title {\n    font-size: 24px;\n    font-weight: bold;\n  }\n  \n  .subtitle {\n    font-size: 18px;\n  }\n  "],
-  "mappings": ";;AACA;AACI;AACA;AACA;AACA;AACA;AACA;AAAA;;;ACNJ;AACI;AACA;AACA;AACA;AAAA;AAGF;AACE;AACA;AAAA;AAGF;AACE;AAAA;",
-  "names": []
-}
