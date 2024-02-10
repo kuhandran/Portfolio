@@ -1,0 +1,5 @@
+.headerBody{
+    /* background: rgb(255,255,255); */
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(246,247,221,1) 100%);
+    /* padding: 25rem 15rem; */
+}

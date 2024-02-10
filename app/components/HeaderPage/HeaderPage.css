@@ -1,9 +1,9 @@
 .header {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    /* top: 50%;
+    left: 50%; */
     transform: translate(-50%, -50%);
-    text-align: center;
+    text-align:left;
     /* color: transparent; */
     background: transparent;
     background-color: transparent;
@@ -16,7 +16,7 @@
   }
   
   .subtitle {
-    font-size: 1.5rem;
-    margin-top: 10px;
+    /* font-size: 1.5rem;
+    margin-top: 10px; */
   }
   

@@ -1,5 +1,5 @@
 import Headers from './header.jsx';
-
+import React from 'react';
 
 
 export function headers({
@@ -21,8 +21,8 @@ export function headers({
 
 export default function Index() {
   return (
-    <div >
+    <React.Fragment>
       <Headers/>
-   </div>
+    </React.Fragment>
   );
 }
