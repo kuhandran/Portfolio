@@ -28,7 +28,7 @@ import {
 } from "@remix-run/react";
 
 // css-bundle-plugin-ns:@remix-run/css-bundle
-var cssBundleHref = "/build/css-bundle-CFBA5IUZ.css";
+var cssBundleHref = "/build/css-bundle-IOBMEK6U.css";
 
 // app/root.tsx
 import { jsxDEV } from "react/jsx-dev-runtime";
@@ -163,48 +163,68 @@ var HeaderPage = () => /* @__PURE__ */ jsxDEV2("div", { className: "relative", c
 import { jsxDEV as jsxDEV3 } from "react/jsx-dev-runtime";
 var ImageContainer = () => /* @__PURE__ */ jsxDEV3("img", { className: "lazy absolute top-0 right-0 object-cover object-right-bottom max-w-screen-xl translate-x-1/2 md:translate-x-1/4 2xl:translate-x-0 bg-clip-padding xl:h-full", src: personal_default }, void 0, !1, {
   fileName: "app/components/ImageContainer/ImageContainer.jsx",
-  lineNumber: 8,
+  lineNumber: 7,
   columnNumber: 9
 }, this), ImageContainer_default = ImageContainer;
 
 // app/components/HeaderNavigation/HeaderNavigation.jsx
 import { jsxDEV as jsxDEV4 } from "react/jsx-dev-runtime";
-var HeaderNavigation = () => /* @__PURE__ */ jsxDEV4("div", { className: "sticky top-0 z-50 w-full bg-amber-100 border-b border-amber-100", children: /* @__PURE__ */ jsxDEV4("div", { className: "flex flex-row justify-between px-3 py-4 sm:px-8 xl:px-12 lg:py-5", children: [
+var HeaderNavigation = () => /* @__PURE__ */ jsxDEV4("nav", { className: "sticky top-0 z-50 w-full bg-amber-100 border-b border-amber-100", children: /* @__PURE__ */ jsxDEV4("div", { className: "flex flex-row justify-between px-3 py-4 sm:px-8 xl:px-12 lg:py-5", children: [
   /* @__PURE__ */ jsxDEV4("span", { children: "KS Portfolio" }, void 0, !1, {
     fileName: "app/components/HeaderNavigation/HeaderNavigation.jsx",
     lineNumber: 9,
-    columnNumber: 13
+    columnNumber: 17
   }, this),
-  /* @__PURE__ */ jsxDEV4("div", { className: "flex items-center space-x-6", children: [
-    /* @__PURE__ */ jsxDEV4("a", { className: "hidden font-semibold md:inline", children: "About us" }, void 0, !1, {
+  /* @__PURE__ */ jsxDEV4("div", { className: "hidden w-full md:block md:w-auto", children: /* @__PURE__ */ jsxDEV4("ul", { className: "font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0", children: [
+    /* @__PURE__ */ jsxDEV4("li", { children: /* @__PURE__ */ jsxDEV4("a", { className: "hidden font-semibold md:inline", children: "About us" }, void 0, !1, {
       fileName: "app/components/HeaderNavigation/HeaderNavigation.jsx",
-      lineNumber: 11,
-      columnNumber: 17
+      lineNumber: 17,
+      columnNumber: 25
+    }, this) }, void 0, !1, {
+      fileName: "app/components/HeaderNavigation/HeaderNavigation.jsx",
+      lineNumber: 16,
+      columnNumber: 25
     }, this),
-    /* @__PURE__ */ jsxDEV4("a", { className: "hidden font-semibold md:inline", children: "Projects" }, void 0, !1, {
+    /* @__PURE__ */ jsxDEV4("li", { children: /* @__PURE__ */ jsxDEV4("a", { className: "hidden font-semibold md:inline", children: "Projects" }, void 0, !1, {
       fileName: "app/components/HeaderNavigation/HeaderNavigation.jsx",
-      lineNumber: 12,
-      columnNumber: 17
+      lineNumber: 20,
+      columnNumber: 25
+    }, this) }, void 0, !1, {
+      fileName: "app/components/HeaderNavigation/HeaderNavigation.jsx",
+      lineNumber: 19,
+      columnNumber: 25
     }, this),
-    /* @__PURE__ */ jsxDEV4("a", { className: "hidden font-semibold md:inline", children: "Technical Specfications" }, void 0, !1, {
+    /* @__PURE__ */ jsxDEV4("li", { children: /* @__PURE__ */ jsxDEV4("a", { className: "hidden font-semibold md:inline", children: "Technical Specfications" }, void 0, !1, {
       fileName: "app/components/HeaderNavigation/HeaderNavigation.jsx",
-      lineNumber: 13,
-      columnNumber: 17
+      lineNumber: 23,
+      columnNumber: 25
+    }, this) }, void 0, !1, {
+      fileName: "app/components/HeaderNavigation/HeaderNavigation.jsx",
+      lineNumber: 22,
+      columnNumber: 25
     }, this),
-    /* @__PURE__ */ jsxDEV4("a", { className: "hidden font-semibold md:inline", children: "Contact us" }, void 0, !1, {
+    /* @__PURE__ */ jsxDEV4("li", { children: /* @__PURE__ */ jsxDEV4("a", { className: "hidden font-semibold md:inline", children: "Contact us" }, void 0, !1, {
       fileName: "app/components/HeaderNavigation/HeaderNavigation.jsx",
-      lineNumber: 14,
-      columnNumber: 17
+      lineNumber: 26,
+      columnNumber: 25
+    }, this) }, void 0, !1, {
+      fileName: "app/components/HeaderNavigation/HeaderNavigation.jsx",
+      lineNumber: 25,
+      columnNumber: 25
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/HeaderNavigation/HeaderNavigation.jsx",
-    lineNumber: 10,
-    columnNumber: 13
+    lineNumber: 15,
+    columnNumber: 21
+  }, this) }, void 0, !1, {
+    fileName: "app/components/HeaderNavigation/HeaderNavigation.jsx",
+    lineNumber: 14,
+    columnNumber: 17
   }, this)
 ] }, void 0, !0, {
   fileName: "app/components/HeaderNavigation/HeaderNavigation.jsx",
   lineNumber: 8,
-  columnNumber: 9
+  columnNumber: 13
 }, this) }, void 0, !1, {
   fileName: "app/components/HeaderNavigation/HeaderNavigation.jsx",
   lineNumber: 7,
@@ -372,7 +392,7 @@ function About() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-AHH37GSA.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-YLW4AXUA.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-TSBYFMHC.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-OGEEXPRP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-SP5DA5N5.js", imports: ["/build/_shared/chunk-I7DROFT6.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-P4WBK2WF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/experince": { id: "routes/experince", parentId: "root", path: "experince", index: void 0, caseSensitive: void 0, module: "/build/routes/experince-OXEKRUWH.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/header": { id: "routes/header", parentId: "root", path: "header", index: void 0, caseSensitive: void 0, module: "/build/routes/header-AUWRMXB3.js", imports: ["/build/_shared/chunk-I7DROFT6.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/projects": { id: "routes/projects", parentId: "root", path: "projects", index: void 0, caseSensitive: void 0, module: "/build/routes/projects-SCSWS2W4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "593b3230", hmr: { runtime: "/build/_shared/chunk-TSBYFMHC.js", timestamp: 1707625724043 }, url: "/build/manifest-593B3230.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-AHH37GSA.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-YLW4AXUA.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-TSBYFMHC.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-2HM6TJWP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-SV4WMO44.js", imports: ["/build/_shared/chunk-YBVXJEZA.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-P4WBK2WF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/experince": { id: "routes/experince", parentId: "root", path: "experince", index: void 0, caseSensitive: void 0, module: "/build/routes/experince-OXEKRUWH.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/header": { id: "routes/header", parentId: "root", path: "header", index: void 0, caseSensitive: void 0, module: "/build/routes/header-OMG6XE4I.js", imports: ["/build/_shared/chunk-YBVXJEZA.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/projects": { id: "routes/projects", parentId: "root", path: "projects", index: void 0, caseSensitive: void 0, module: "/build/routes/projects-SCSWS2W4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "53edb1cb", hmr: { runtime: "/build/_shared/chunk-TSBYFMHC.js", timestamp: 1707628127233 }, url: "/build/manifest-53EDB1CB.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var mode = "development", assetsBuildDirectory = "public/build", future = { v3_fetcherPersist: !1, v3_relativeSplatPath: !1, v3_throwAbortReason: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
