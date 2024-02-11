@@ -1,9 +1,14 @@
 import React from 'react';
-import HeaderBackground from "../components/HeaderBackground/HeaderBackground"
+import HeaderBackground from "../components/HeaderBackground/HeaderBackground";
+import HeaderNavigation from "../components/HeaderNavigation/HeaderNavigation"
 // import { Canvas } from 'react-three-fiber';
 
 export default function Headers() {
     return (
-          <HeaderBackground/>
+        <React.Fragment>
+            <HeaderNavigation />
+            <HeaderBackground />
+        </React.Fragment>
+
     );
 }
