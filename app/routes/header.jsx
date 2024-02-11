@@ -1,8 +1,9 @@
 import React from 'react';
-import HeaderBackground from "../components/HeaderBackground/HeaderBackground";
-import HeaderNavigation from "../components/HeaderNavigation/HeaderNavigation";
-import ContentContainer from "../components/ContentContainer/ContentContainer";
-import MilestoneContainer from "../components/MilestoneContainer/MilestoneContainer"
+import { lazy } from 'react';
+const HeaderBackground = lazy(() => import("../components/HeaderBackground/HeaderBackground"));
+const HeaderNavigation = lazy(() => import("../components/HeaderNavigation/HeaderNavigation"));
+const ContentContainer = lazy(() => import("../components/ContentContainer/ContentContainer"));
+const MilestoneContainer = lazy(() => import("../components/MilestoneContainer/MilestoneContainer"));
 // import { Canvas } from 'react-three-fiber';
 
 export default function Headers() {
