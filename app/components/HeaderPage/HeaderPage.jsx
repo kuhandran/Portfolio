@@ -1,6 +1,5 @@
 // Header.jsx
 import "./HeaderPage.css";
-import personal from "../../images/personal.png";
 
 function downloadPdf() {
   // Replace 'pdf_filename.pdf' with the actual name of your PDF file

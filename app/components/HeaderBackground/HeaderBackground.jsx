@@ -1,11 +1,9 @@
 // Header.js
-import React from 'react';
+import { lazy } from 'react';
 import './HeaderBackground.css';
-import WaterSplash from "../WaterSplash/WaterSplash";
 import HeaderPage from "../HeaderPage/HeaderPage";
-import ImageContainer from "../ImageContainer/ImageContainer";
-import HeaderNavigation from "../HeaderNavigation/HeaderNavigation";
 
+const ImageContainer = lazy(() => import('../ImageContainer/ImageContainer'));
 
 
 
