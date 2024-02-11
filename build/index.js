@@ -28,7 +28,7 @@ import {
 } from "@remix-run/react";
 
 // css-bundle-plugin-ns:@remix-run/css-bundle
-var cssBundleHref = "/build/css-bundle-IOBMEK6U.css";
+var cssBundleHref = "/build/css-bundle-L6Q2LDOT.css";
 
 // app/root.tsx
 import { jsxDEV } from "react/jsx-dev-runtime";
@@ -233,7 +233,7 @@ var HeaderNavigation = () => /* @__PURE__ */ jsxDEV4("nav", { className: "sticky
 
 // app/components/HeaderBackground/HeaderBackground.jsx
 import { jsxDEV as jsxDEV5 } from "react/jsx-dev-runtime";
-var HeaderBackground = () => /* @__PURE__ */ jsxDEV5("article", { className: "flex flex-col overflow-x-hidden", children: /* @__PURE__ */ jsxDEV5("div", { className: "relative px-6 pt-60 pb-96 overflow-hidden lg:py-72 xl:py-80 sm:px-8 xl:px-12 bg-gradient-to-t from-amber-50 to-amber-100", children: [
+var HeaderBackground = () => /* @__PURE__ */ jsxDEV5("article", { className: "flex flex-col overflow-x-hidden", children: /* @__PURE__ */ jsxDEV5("div", { className: "relative px-6 pt-60 pb-80 overflow-hidden lg:py-72 xl:py-80 sm:px-8 xl:px-12 bg-gradient-to-t from-amber-50 to-amber-100", children: [
   /* @__PURE__ */ jsxDEV5(HeaderPage_default, {}, void 0, !1, {
     fileName: "app/components/HeaderBackground/HeaderBackground.jsx",
     lineNumber: 16,
@@ -254,30 +254,174 @@ var HeaderBackground = () => /* @__PURE__ */ jsxDEV5("article", { className: "fl
   columnNumber: 5
 }, this), HeaderBackground_default = HeaderBackground;
 
-// app/routes/header.jsx
+// app/components/ContentContainer/ContentContainer.jsx
 import { jsxDEV as jsxDEV6 } from "react/jsx-dev-runtime";
+var ContentContainer = () => /* @__PURE__ */ jsxDEV6("div", { className: "px-10 py-10 bg-amber-100 border-b border-amber-100", children: [
+  /* @__PURE__ */ jsxDEV6("h2", { className: "mb-6 text-3xl font-extrabold text-center leading-none tracking-tight text-gray-900 lg:text-xl sm:px-16 xl:px-48 dark:text-black", children: "Empowering Businesses Through Expertise and Leadership (Project Manager)" }, void 0, !1, {
+    fileName: "app/components/ContentContainer/ContentContainer.jsx",
+    lineNumber: 6,
+    columnNumber: 13
+  }, this),
+  /* @__PURE__ */ jsxDEV6("p", { className: "mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400", children: "Welcome to my professional portfolio. With a proven track record spanning over six years, I specialize in project management and React frontend development, supported by a Scrum Master certification. My journey began in the dynamic realms of banking and insurance, where I cultivated a deep understanding of regulatory frameworks and fintech advancements across the Asian region. This foundation has been instrumental in navigating complex landscapes and delivering innovative solutions tailored to diverse industry needs." }, void 0, !1, {
+    fileName: "app/components/ContentContainer/ContentContainer.jsx",
+    lineNumber: 7,
+    columnNumber: 13
+  }, this),
+  /* @__PURE__ */ jsxDEV6("h2", { className: "mb-6 text-3xl font-extrabold text-center leading-none tracking-tight text-gray-900 lg:text-xl sm:px-16 xl:px-48 dark:text-black", children: "Technical Proficiency and Collaborative Leadership (Team Lead and Developer)" }, void 0, !1, {
+    fileName: "app/components/ContentContainer/ContentContainer.jsx",
+    lineNumber: 8,
+    columnNumber: 13
+  }, this),
+  /* @__PURE__ */ jsxDEV6("p", { className: "mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400", children: "Proficient in JavaScript, React.js, Redux, and Webpack, I am dedicated to crafting robust and scalable solutions that drive business success. My approach is rooted in collaborative leadership, fostering cohesive teams and efficient project execution. I am driven by a passion for leveraging technology to empower businesses and deliver exceptional results. Let's embark on a journey of innovation together and unlock the full potential of your projects." }, void 0, !1, {
+    fileName: "app/components/ContentContainer/ContentContainer.jsx",
+    lineNumber: 9,
+    columnNumber: 13
+  }, this)
+] }, void 0, !0, {
+  fileName: "app/components/ContentContainer/ContentContainer.jsx",
+  lineNumber: 5,
+  columnNumber: 9
+}, this), ContentContainer_default = ContentContainer;
+
+// app/components/MilestoneContainer/MilestoneContainer.jsx
+import { jsxDEV as jsxDEV7 } from "react/jsx-dev-runtime";
+var MilestoneContainer = () => /* @__PURE__ */ jsxDEV7("div", { className: "block py-28 px-80 bg-white", children: /* @__PURE__ */ jsxDEV7("ol", { className: "relative border-s border-gray-200 dark:border-gray-700", children: [
+  /* @__PURE__ */ jsxDEV7("li", { className: "mb-10 ms-6", children: [
+    /* @__PURE__ */ jsxDEV7("span", { className: "absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8  dark:ring-gray-900 dark:bg-blue-900" }, void 0, !1, {
+      fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+      lineNumber: 8,
+      columnNumber: 21
+    }, this),
+    /* @__PURE__ */ jsxDEV7("h3", { className: "flex items-center mb-1 text-lg font-semibold text-gray-900 ", children: [
+      "Flowbite Application UI v2.0.0 ",
+      /* @__PURE__ */ jsxDEV7("span", { className: "bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3", children: "Latest" }, void 0, !1, {
+        fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+        lineNumber: 10,
+        columnNumber: 128
+      }, this)
+    ] }, void 0, !0, {
+      fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+      lineNumber: 10,
+      columnNumber: 21
+    }, this),
+    /* @__PURE__ */ jsxDEV7("time", { className: "block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500", children: "Released on January 13th, 2022" }, void 0, !1, {
+      fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+      lineNumber: 11,
+      columnNumber: 21
+    }, this),
+    /* @__PURE__ */ jsxDEV7("p", { className: "mb-4 text-base font-normal text-gray-500 dark:text-gray-400", children: "Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages." }, void 0, !1, {
+      fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+      lineNumber: 12,
+      columnNumber: 21
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+    lineNumber: 7,
+    columnNumber: 17
+  }, this),
+  /* @__PURE__ */ jsxDEV7("li", { className: "mb-10 ms-6", children: [
+    /* @__PURE__ */ jsxDEV7("span", { className: "absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 dark:ring-gray-900 dark:bg-blue-900" }, void 0, !1, {
+      fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+      lineNumber: 15,
+      columnNumber: 21
+    }, this),
+    /* @__PURE__ */ jsxDEV7("h3", { className: "flex items-center mb-1 text-lg font-semibold text-gray-900", children: [
+      "Flowbite Application UI v2.0.0 ",
+      /* @__PURE__ */ jsxDEV7("span", { className: "bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3", children: "Latest" }, void 0, !1, {
+        fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+        lineNumber: 17,
+        columnNumber: 127
+      }, this)
+    ] }, void 0, !0, {
+      fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+      lineNumber: 17,
+      columnNumber: 21
+    }, this),
+    /* @__PURE__ */ jsxDEV7("time", { className: "block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500", children: "Released on January 13th, 2022" }, void 0, !1, {
+      fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+      lineNumber: 18,
+      columnNumber: 21
+    }, this),
+    /* @__PURE__ */ jsxDEV7("p", { className: "mb-4 text-base font-normal text-gray-500 dark:text-gray-400", children: "Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages." }, void 0, !1, {
+      fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+      lineNumber: 19,
+      columnNumber: 21
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+    lineNumber: 14,
+    columnNumber: 17
+  }, this),
+  /* @__PURE__ */ jsxDEV7("li", { className: "mb-10 ms-6", children: [
+    /* @__PURE__ */ jsxDEV7("span", { className: "absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 dark:ring-gray-900 dark:bg-blue-900" }, void 0, !1, {
+      fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+      lineNumber: 22,
+      columnNumber: 21
+    }, this),
+    /* @__PURE__ */ jsxDEV7("h3", { className: "flex items-center mb-1 text-lg font-semibold text-gray-900" }, void 0, !1, {
+      fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+      lineNumber: 24,
+      columnNumber: 21
+    }, this),
+    /* @__PURE__ */ jsxDEV7("time", { className: "block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500" }, void 0, !1, {
+      fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+      lineNumber: 25,
+      columnNumber: 21
+    }, this),
+    /* @__PURE__ */ jsxDEV7("p", { className: "mb-4 text-base font-normal text-gray-500 dark:text-gray-400" }, void 0, !1, {
+      fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+      lineNumber: 26,
+      columnNumber: 21
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+    lineNumber: 21,
+    columnNumber: 17
+  }, this)
+] }, void 0, !0, {
+  fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+  lineNumber: 6,
+  columnNumber: 13
+}, this) }, void 0, !1, {
+  fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+  lineNumber: 5,
+  columnNumber: 9
+}, this), MilestoneContainer_default = MilestoneContainer;
+
+// app/routes/header.jsx
+import { jsxDEV as jsxDEV8 } from "react/jsx-dev-runtime";
 function Headers() {
-  return /* @__PURE__ */ jsxDEV6(React2.Fragment, { children: [
-    /* @__PURE__ */ jsxDEV6(HeaderNavigation_default, {}, void 0, !1, {
+  return /* @__PURE__ */ jsxDEV8(React2.Fragment, { children: [
+    /* @__PURE__ */ jsxDEV8(HeaderNavigation_default, {}, void 0, !1, {
       fileName: "app/routes/header.jsx",
-      lineNumber: 9,
+      lineNumber: 11,
       columnNumber: 13
     }, this),
-    /* @__PURE__ */ jsxDEV6(HeaderBackground_default, {}, void 0, !1, {
+    /* @__PURE__ */ jsxDEV8(HeaderBackground_default, {}, void 0, !1, {
       fileName: "app/routes/header.jsx",
-      lineNumber: 10,
+      lineNumber: 12,
+      columnNumber: 13
+    }, this),
+    /* @__PURE__ */ jsxDEV8(ContentContainer_default, {}, void 0, !1, {
+      fileName: "app/routes/header.jsx",
+      lineNumber: 13,
+      columnNumber: 13
+    }, this),
+    /* @__PURE__ */ jsxDEV8(MilestoneContainer_default, {}, void 0, !1, {
+      fileName: "app/routes/header.jsx",
+      lineNumber: 14,
       columnNumber: 13
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/header.jsx",
-    lineNumber: 8,
+    lineNumber: 10,
     columnNumber: 9
   }, this);
 }
 
 // app/routes/_index.tsx
 import React3 from "react";
-import { jsxDEV as jsxDEV7 } from "react/jsx-dev-runtime";
+import { jsxDEV as jsxDEV9 } from "react/jsx-dev-runtime";
 function headers({
   loaderHeaders,
   parentHeaders
@@ -291,7 +435,7 @@ function headers({
   };
 }
 function Index() {
-  return /* @__PURE__ */ jsxDEV7(React3.Fragment, { children: /* @__PURE__ */ jsxDEV7(Headers, {}, void 0, !1, {
+  return /* @__PURE__ */ jsxDEV9(React3.Fragment, { children: /* @__PURE__ */ jsxDEV9(Headers, {}, void 0, !1, {
     fileName: "app/routes/_index.tsx",
     lineNumber: 25,
     columnNumber: 7
@@ -307,16 +451,16 @@ var about_exports = {};
 __export(about_exports, {
   default: () => About
 });
-import { jsxDEV as jsxDEV8 } from "react/jsx-dev-runtime";
+import { jsxDEV as jsxDEV10 } from "react/jsx-dev-runtime";
 function About() {
-  return /* @__PURE__ */ jsxDEV8("main", { style: { fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }, children: [
-    /* @__PURE__ */ jsxDEV8("h1", { children: "Welcome  about to Remix" }, void 0, !1, {
+  return /* @__PURE__ */ jsxDEV10("main", { style: { fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }, children: [
+    /* @__PURE__ */ jsxDEV10("h1", { children: "Welcome  about to Remix" }, void 0, !1, {
       fileName: "app/routes/about.tsx",
       lineNumber: 4,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ jsxDEV8("ul", { children: [
-      /* @__PURE__ */ jsxDEV8("li", { children: /* @__PURE__ */ jsxDEV8(
+    /* @__PURE__ */ jsxDEV10("ul", { children: [
+      /* @__PURE__ */ jsxDEV10("li", { children: /* @__PURE__ */ jsxDEV10(
         "a",
         {
           target: "_blank",
@@ -337,7 +481,7 @@ function About() {
         lineNumber: 6,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ jsxDEV8("li", { children: /* @__PURE__ */ jsxDEV8(
+      /* @__PURE__ */ jsxDEV10("li", { children: /* @__PURE__ */ jsxDEV10(
         "a",
         {
           target: "_blank",
@@ -358,7 +502,7 @@ function About() {
         lineNumber: 15,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ jsxDEV8("li", { children: /* @__PURE__ */ jsxDEV8(
+      /* @__PURE__ */ jsxDEV10("li", { children: /* @__PURE__ */ jsxDEV10(
         "a",
         {
           target: "_blank",
@@ -392,7 +536,7 @@ function About() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-AHH37GSA.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-YLW4AXUA.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-TSBYFMHC.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-2HM6TJWP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-SV4WMO44.js", imports: ["/build/_shared/chunk-YBVXJEZA.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-P4WBK2WF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/experince": { id: "routes/experince", parentId: "root", path: "experince", index: void 0, caseSensitive: void 0, module: "/build/routes/experince-OXEKRUWH.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/header": { id: "routes/header", parentId: "root", path: "header", index: void 0, caseSensitive: void 0, module: "/build/routes/header-OMG6XE4I.js", imports: ["/build/_shared/chunk-YBVXJEZA.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/projects": { id: "routes/projects", parentId: "root", path: "projects", index: void 0, caseSensitive: void 0, module: "/build/routes/projects-SCSWS2W4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "53edb1cb", hmr: { runtime: "/build/_shared/chunk-TSBYFMHC.js", timestamp: 1707628127233 }, url: "/build/manifest-53EDB1CB.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-AHH37GSA.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-YLW4AXUA.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-TSBYFMHC.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-PTKIAXYM.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-UZDT6NNW.js", imports: ["/build/_shared/chunk-T4WCJRIM.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-P4WBK2WF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/experince": { id: "routes/experince", parentId: "root", path: "experince", index: void 0, caseSensitive: void 0, module: "/build/routes/experince-OXEKRUWH.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/header": { id: "routes/header", parentId: "root", path: "header", index: void 0, caseSensitive: void 0, module: "/build/routes/header-4ZOETHTA.js", imports: ["/build/_shared/chunk-T4WCJRIM.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/projects": { id: "routes/projects", parentId: "root", path: "projects", index: void 0, caseSensitive: void 0, module: "/build/routes/projects-SCSWS2W4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "9f90087b", hmr: { runtime: "/build/_shared/chunk-TSBYFMHC.js", timestamp: 1707631466862 }, url: "/build/manifest-9F90087B.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var mode = "development", assetsBuildDirectory = "public/build", future = { v3_fetcherPersist: !1, v3_relativeSplatPath: !1, v3_throwAbortReason: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
