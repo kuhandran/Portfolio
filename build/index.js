@@ -106,7 +106,7 @@ var ImageContainer2, HeaderBackground, HeaderBackground_default, init_HeaderBack
     "use strict";
     init_();
     init_HeaderPage();
-    ImageContainer2 = lazy(() => Promise.resolve().then(() => (init_ImageContainer(), ImageContainer_exports))), HeaderBackground = () => /* @__PURE__ */ jsxDEV4("article", { className: "flex flex-col overflow-x-hidden", children: /* @__PURE__ */ jsxDEV4("div", { className: "relative px-6 pt-60 pb-80 overflow-hidden lg:py-72 xl:py-80 sm:px-8 xl:px-12 bg-gradient-to-t from-amber-50 to-amber-100", children: [
+    ImageContainer2 = lazy(() => Promise.resolve().then(() => (init_ImageContainer(), ImageContainer_exports))), HeaderBackground = () => /* @__PURE__ */ jsxDEV4("article", { className: "flex flex-col overflow-x-hidden", children: /* @__PURE__ */ jsxDEV4("div", { className: "relative px-6 pt-40 overflow-hidden lg:py-72 xl:py-80 sm:px-8 xl:px-12 bg-gradient-to-t from-amber-50 to-amber-100", children: [
       /* @__PURE__ */ jsxDEV4(HeaderPage_default, {}, void 0, !1, {
         fileName: "app/components/HeaderBackground/HeaderBackground.jsx",
         lineNumber: 14,
@@ -247,6 +247,20 @@ var ContentContainer, ContentContainer_default, init_ContentContainer = __esm({
   }
 });
 
+// app/images/banking.png
+var banking_default, init_banking = __esm({
+  "app/images/banking.png"() {
+    banking_default = "/build/_assets/banking-W5J4YEK3.png";
+  }
+});
+
+// app/images/compliance.png
+var compliance_default, init_compliance = __esm({
+  "app/images/compliance.png"() {
+    compliance_default = "/build/_assets/compliance-KJCWTTMH.png";
+  }
+});
+
 // app/components/MilestoneContainer/MilestoneContainer.jsx
 var MilestoneContainer_exports = {};
 __export(MilestoneContainer_exports, {
@@ -256,80 +270,74 @@ import { jsxDEV as jsxDEV7 } from "react/jsx-dev-runtime";
 var MilestoneContainer, MilestoneContainer_default, init_MilestoneContainer = __esm({
   "app/components/MilestoneContainer/MilestoneContainer.jsx"() {
     "use strict";
-    MilestoneContainer = () => /* @__PURE__ */ jsxDEV7("div", { className: "block py-28 px-80 bg-white", children: /* @__PURE__ */ jsxDEV7("ol", { className: "relative border-s border-gray-200 dark:border-gray-700", children: [
-      /* @__PURE__ */ jsxDEV7("li", { className: "mb-10 ms-6", children: [
-        /* @__PURE__ */ jsxDEV7("span", { className: "absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8  dark:ring-gray-900 dark:bg-blue-900" }, void 0, !1, {
-          fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
-          lineNumber: 8,
-          columnNumber: 21
-        }, this),
-        /* @__PURE__ */ jsxDEV7("h3", { className: "flex items-center mb-1 text-lg font-semibold text-gray-900 ", children: [
-          "Flowbite Application UI v2.0.0 ",
-          /* @__PURE__ */ jsxDEV7("span", { className: "bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3", children: "Latest" }, void 0, !1, {
-            fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
-            lineNumber: 10,
-            columnNumber: 128
-          }, this)
-        ] }, void 0, !0, {
+    init_banking();
+    init_compliance();
+    MilestoneContainer = () => /* @__PURE__ */ jsxDEV7("div", { className: "p-10", children: [
+      /* @__PURE__ */ jsxDEV7("div", { className: "p-4", children: /* @__PURE__ */ jsxDEV7("a", { href: "#", className: "flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700", children: [
+        /* @__PURE__ */ jsxDEV7("img", { className: "object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 lg:w- md:rounded-none md:rounded-s-lg", src: banking_default, alt: "" }, void 0, !1, {
           fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
           lineNumber: 10,
           columnNumber: 21
         }, this),
-        /* @__PURE__ */ jsxDEV7("time", { className: "block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500", children: "Released on January 13th, 2022" }, void 0, !1, {
-          fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
-          lineNumber: 11,
-          columnNumber: 21
-        }, this),
-        /* @__PURE__ */ jsxDEV7("p", { className: "mb-4 text-base font-normal text-gray-500 dark:text-gray-400", children: "Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages." }, void 0, !1, {
-          fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
-          lineNumber: 12,
-          columnNumber: 21
-        }, this)
-      ] }, void 0, !0, {
-        fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
-        lineNumber: 7,
-        columnNumber: 17
-      }, this),
-      /* @__PURE__ */ jsxDEV7("li", { className: "mb-10 ms-6", children: [
-        /* @__PURE__ */ jsxDEV7("span", { className: "absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 dark:ring-gray-900 dark:bg-blue-900" }, void 0, !1, {
-          fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
-          lineNumber: 15,
-          columnNumber: 21
-        }, this),
-        /* @__PURE__ */ jsxDEV7("h3", { className: "flex items-center mb-1 text-lg font-semibold text-gray-900", children: [
-          "Flowbite Application UI v2.0.0 ",
-          /* @__PURE__ */ jsxDEV7("span", { className: "bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3", children: "Latest" }, void 0, !1, {
+        /* @__PURE__ */ jsxDEV7("div", { className: "flex flex-col justify-between p-4 leading-normal", children: [
+          /* @__PURE__ */ jsxDEV7("h5", { className: "mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white", children: "Enhanced Online Retail Banking UI/UX Project with React" }, void 0, !1, {
             fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
-            lineNumber: 17,
-            columnNumber: 127
+            lineNumber: 12,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ jsxDEV7("p", { className: "mb-3 font-normal text-gray-700 dark:text-gray-400", children: "The project focused on enhancing the user interface and user experience of an online retail banking platform using React. Key responsibilities included upgrading libraries, providing solutions for architectural challenges, creating dynamic architecture, designing the Work Breakdown Structure (WBS), establishing timelines, supporting deployment, managing incident reports, guiding vendor development, and ensuring strict adherence to code quality standards." }, void 0, !1, {
+            fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+            lineNumber: 13,
+            columnNumber: 25
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
-          lineNumber: 17,
-          columnNumber: 21
-        }, this),
-        /* @__PURE__ */ jsxDEV7("time", { className: "block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500", children: "Released on January 13th, 2022" }, void 0, !1, {
-          fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
-          lineNumber: 18,
-          columnNumber: 21
-        }, this),
-        /* @__PURE__ */ jsxDEV7("p", { className: "mb-4 text-base font-normal text-gray-500 dark:text-gray-400", children: "Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages." }, void 0, !1, {
-          fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
-          lineNumber: 19,
+          lineNumber: 11,
           columnNumber: 21
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
-        lineNumber: 14,
+        lineNumber: 9,
         columnNumber: 17
+      }, this) }, void 0, !1, {
+        fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+        lineNumber: 8,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ jsxDEV7("div", { className: "p-4", children: /* @__PURE__ */ jsxDEV7("a", { href: "#", className: "flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700", children: [
+        /* @__PURE__ */ jsxDEV7("img", { className: "object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg", src: compliance_default, alt: "" }, void 0, !1, {
+          fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+          lineNumber: 19,
+          columnNumber: 21
+        }, this),
+        /* @__PURE__ */ jsxDEV7("div", { className: "flex flex-col justify-between p-4 leading-normal", children: [
+          /* @__PURE__ */ jsxDEV7("h5", { className: "mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white", children: "Experienced Project Manager and Scrum Master Specializing in Incident and Root Cause Management" }, void 0, !1, {
+            fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+            lineNumber: 21,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ jsxDEV7("p", { className: "mb-3 font-normal text-gray-700 dark:text-gray-400", children: "Eexperience in project management, specializing in Incident and Root Cause management and React frontend development, I bring a blend of technical proficiency and agile leadership. Certified as a Scrum Master, I emphasize effective team collaboration and adaptability. My background in banking and insurance equips me with a deep understanding of regulatory frameworks and fintech trends in the Asian region." }, void 0, !1, {
+            fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+            lineNumber: 22,
+            columnNumber: 25
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+          lineNumber: 20,
+          columnNumber: 21
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+        lineNumber: 18,
+        columnNumber: 17
+      }, this) }, void 0, !1, {
+        fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
+        lineNumber: 17,
+        columnNumber: 13
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
-      lineNumber: 6,
-      columnNumber: 13
-    }, this) }, void 0, !1, {
-      fileName: "app/components/MilestoneContainer/MilestoneContainer.jsx",
-      lineNumber: 5,
+      lineNumber: 7,
       columnNumber: 9
     }, this), MilestoneContainer_default = MilestoneContainer;
   }
@@ -359,7 +367,7 @@ import {
 } from "@remix-run/react";
 
 // css-bundle-plugin-ns:@remix-run/css-bundle
-var cssBundleHref = "/build/css-bundle-HU24CAFD.css";
+var cssBundleHref = "/build/css-bundle-VPKY3ZJ2.css";
 
 // app/root.tsx
 import { jsxDEV } from "react/jsx-dev-runtime";
@@ -497,7 +505,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-GVEUOY5R.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-M3SCSKV2.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-TSBYFMHC.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-BR7FXOPY.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-ZIGJP7EW.js", imports: ["/build/_shared/chunk-5IY5Y7IH.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/header": { id: "routes/header", parentId: "root", path: "header", index: void 0, caseSensitive: void 0, module: "/build/routes/header-337BR6WR.js", imports: ["/build/_shared/chunk-5IY5Y7IH.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/projects": { id: "routes/projects", parentId: "root", path: "projects", index: void 0, caseSensitive: void 0, module: "/build/routes/projects-SCSWS2W4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "33648998", hmr: { runtime: "/build/_shared/chunk-TSBYFMHC.js", timestamp: 1707644086597 }, url: "/build/manifest-33648998.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-GVEUOY5R.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-M3SCSKV2.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-TSBYFMHC.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-H43K5OHH.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-MSVJDFKF.js", imports: ["/build/_shared/chunk-UPCMUDGY.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/header": { id: "routes/header", parentId: "root", path: "header", index: void 0, caseSensitive: void 0, module: "/build/routes/header-Y4XDGMT6.js", imports: ["/build/_shared/chunk-UPCMUDGY.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/projects": { id: "routes/projects", parentId: "root", path: "projects", index: void 0, caseSensitive: void 0, module: "/build/routes/projects-SCSWS2W4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "e672b2e2", hmr: { runtime: "/build/_shared/chunk-TSBYFMHC.js", timestamp: 1707652053642 }, url: "/build/manifest-E672B2E2.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var mode = "development", assetsBuildDirectory = "public/build", future = { v3_fetcherPersist: !1, v3_relativeSplatPath: !1, v3_throwAbortReason: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
