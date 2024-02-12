@@ -23,7 +23,7 @@ var init_2 = __esm({
 // app/components/HeaderPage/HeaderPage.jsx
 import { jsxDEV as jsxDEV2 } from "react/jsx-dev-runtime";
 function downloadPdf() {
-  let pdfUrl = "http://" + window.location.hostname + ":" + window.location.port + "/Resources/KuhandranResume2024.pdf";
+  let pdfUrl = "https://" + window.location.hostname + "/Resources/KuhandranResume2024.pdf";
   fetch(pdfUrl).then((response) => {
     if (!response.ok)
       throw new Error("Network response was not ok");
@@ -109,21 +109,21 @@ var ImageContainer2, HeaderBackground, HeaderBackground_default, init_HeaderBack
     ImageContainer2 = lazy(() => Promise.resolve().then(() => (init_ImageContainer(), ImageContainer_exports))), HeaderBackground = () => /* @__PURE__ */ jsxDEV4("article", { className: "flex flex-col overflow-x-hidden", children: /* @__PURE__ */ jsxDEV4("div", { className: "relative px-6 pt-40 overflow-hidden lg:py-72 xl:py-80 sm:px-8 xl:px-12 bg-gradient-to-t from-amber-50 to-amber-100", children: [
       /* @__PURE__ */ jsxDEV4(HeaderPage_default, {}, void 0, !1, {
         fileName: "app/components/HeaderBackground/HeaderBackground.jsx",
-        lineNumber: 14,
+        lineNumber: 11,
         columnNumber: 7
       }, this),
       /* @__PURE__ */ jsxDEV4(ImageContainer2, {}, void 0, !1, {
         fileName: "app/components/HeaderBackground/HeaderBackground.jsx",
-        lineNumber: 15,
+        lineNumber: 12,
         columnNumber: 7
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/HeaderBackground/HeaderBackground.jsx",
-      lineNumber: 13,
+      lineNumber: 10,
       columnNumber: 8
     }, this) }, void 0, !1, {
       fileName: "app/components/HeaderBackground/HeaderBackground.jsx",
-      lineNumber: 12,
+      lineNumber: 9,
       columnNumber: 5
     }, this), HeaderBackground_default = HeaderBackground;
   }
@@ -631,7 +631,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-GVEUOY5R.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-M3SCSKV2.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-TSBYFMHC.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-TG42SU5U.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-ZDP52XO6.js", imports: ["/build/_shared/chunk-BOHDSAFF.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/header": { id: "routes/header", parentId: "root", path: "header", index: void 0, caseSensitive: void 0, module: "/build/routes/header-5GU77RIX.js", imports: ["/build/_shared/chunk-BOHDSAFF.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/projects": { id: "routes/projects", parentId: "root", path: "projects", index: void 0, caseSensitive: void 0, module: "/build/routes/projects-SCSWS2W4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "97e03889", hmr: { runtime: "/build/_shared/chunk-TSBYFMHC.js", timestamp: 1707708006833 }, url: "/build/manifest-97E03889.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-GVEUOY5R.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-M3SCSKV2.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-TSBYFMHC.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-TG42SU5U.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-CEFOX4RL.js", imports: ["/build/_shared/chunk-NCTFXLPJ.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/header": { id: "routes/header", parentId: "root", path: "header", index: void 0, caseSensitive: void 0, module: "/build/routes/header-6SMGC6M5.js", imports: ["/build/_shared/chunk-NCTFXLPJ.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/projects": { id: "routes/projects", parentId: "root", path: "projects", index: void 0, caseSensitive: void 0, module: "/build/routes/projects-SCSWS2W4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "f7d4e5b7", hmr: { runtime: "/build/_shared/chunk-TSBYFMHC.js", timestamp: 1707708226273 }, url: "/build/manifest-F7D4E5B7.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var mode = "development", assetsBuildDirectory = "public/build", future = { v3_fetcherPersist: !1, v3_relativeSplatPath: !1, v3_throwAbortReason: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

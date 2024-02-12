@@ -2,10 +2,7 @@
 import { lazy } from 'react';
 import './HeaderBackground.css';
 import HeaderPage from "../HeaderPage/HeaderPage";
-
 const ImageContainer = lazy(() => import('../ImageContainer/ImageContainer'));
-
-
 
 const HeaderBackground = () => {
   return (

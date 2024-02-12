@@ -3,7 +3,7 @@ import "./HeaderPage.css";
 
 function downloadPdf() {
   // Replace 'pdf_filename.pdf' with the actual name of your PDF file
-  const pdfUrl = 'http://'+ window.location.hostname + ':'  + window.location.port + '/Resources/KuhandranResume2024.pdf';
+  const pdfUrl = 'https://'+ window.location.hostname + '/Resources/KuhandranResume2024.pdf';
   
   fetch(pdfUrl)
     .then(response => {
