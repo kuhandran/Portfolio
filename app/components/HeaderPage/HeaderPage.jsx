@@ -5,9 +5,9 @@ let downloadPdf = () => {
   // Replace 'pdf_filename.pdf' with the actual name of your PDF file
   let pdfUrl="";
   if (window.location.hostname == 'localhost'){
-     pdfUrl = 'http://'+ window.location.hostname + ':' + window.location.port + '/Resources/KuhandranResume2024.pdf';
+     pdfUrl = 'http://'+ window.location.hostname + ':' + window.location.port + '/resources/resume.pdf';
   }else{
-    pdfUrl = 'http://'+ window.location.hostname + '/Resources/KuhandranResume2024.pdf';
+    pdfUrl = 'http://'+ window.location.hostname + '/resources/resume.pdf';
   }
   
   console.log(pdfUrl,'pdfUrl');

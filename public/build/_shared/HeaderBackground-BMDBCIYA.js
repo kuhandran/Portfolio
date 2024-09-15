@@ -38,9 +38,9 @@ if (import.meta) {
 var downloadPdf = () => {
   let pdfUrl = "";
   if (window.location.hostname == "localhost") {
-    pdfUrl = "http://" + window.location.hostname + ":" + window.location.port + "/Resources/KuhandranResume2024.pdf";
+    pdfUrl = "http://" + window.location.hostname + ":" + window.location.port + "/resources/resume.pdf";
   } else {
-    pdfUrl = "http://" + window.location.hostname + "/Resources/KuhandranResume2024.pdf";
+    pdfUrl = "http://" + window.location.hostname + "/resources/resume.pdf";
   }
   console.log(pdfUrl, "pdfUrl");
   window.open(pdfUrl);
@@ -140,4 +140,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   HeaderBackground_default as default
 };
-//# sourceMappingURL=/build/_shared/HeaderBackground-BT3MEQQV.js.map
+//# sourceMappingURL=/build/_shared/HeaderBackground-BMDBCIYA.js.map

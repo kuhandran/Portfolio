@@ -34,7 +34,7 @@ if (import.meta) {
   );
   import.meta.hot.lastModified = "1707707058624.4421";
 }
-var HeaderBackground = (0, import_react2.lazy)(_c = () => import("/build/_shared/HeaderBackground-BT3MEQQV.js"));
+var HeaderBackground = (0, import_react2.lazy)(_c = () => import("/build/_shared/HeaderBackground-BMDBCIYA.js"));
 _c2 = HeaderBackground;
 var HeaderNavigation = (0, import_react2.lazy)(_c3 = () => import("/build/_shared/HeaderNavigation-CZ2W2F2G.js"));
 _c4 = HeaderNavigation;
@@ -106,4 +106,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   Headers
 };
-//# sourceMappingURL=/build/_shared/chunk-NA6ULHIU.js.map
+//# sourceMappingURL=/build/_shared/chunk-Q3LHSQ7T.js.map

@@ -1,6 +1,6 @@
 import {
   Headers
-} from "/build/_shared/chunk-NA6ULHIU.js";
+} from "/build/_shared/chunk-Q3LHSQ7T.js";
 import {
   require_jsx_dev_runtime
 } from "/build/_shared/chunk-XU7DNSPJ.js";
@@ -56,4 +56,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/_index-XWB5M2KO.js.map
+//# sourceMappingURL=/build/routes/_index-WKFLLRN7.js.map
