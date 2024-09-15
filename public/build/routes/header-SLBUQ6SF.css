@@ -1,0 +1,23 @@
+/* css-side-effects-plugin-ns:app/components/HeaderBackground/HeaderBackground.css */
+.headerBody {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(246, 247, 221, 1) 100%);
+}
+
+/* css-side-effects-plugin-ns:app/components/HeaderPage/HeaderPage.css */
+.header {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  background: transparent;
+  background-color: transparent;
+  font-family: "Arial", sans-serif;
+}
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.subtitle {
+}
+
+/* css-side-effects-plugin-ns:app/components/HeaderNavigation/HeaderNavigation.css */
+/*# sourceMappingURL=/build/routes/header-SLBUQ6SF.css.map */

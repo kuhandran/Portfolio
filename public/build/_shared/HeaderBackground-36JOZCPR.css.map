@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["HeaderBackground.css", "HeaderPage.css"],
+  "sourcesContent": [".headerBody{\n    /* background: rgb(255,255,255); */\n    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(246,247,221,1) 100%);\n    /* padding: 25rem 15rem; */\n}", ".header {\n    position: absolute;\n    /* top: 50%;\n    left: 50%; */\n    transform: translate(-50%, -50%);\n    text-align:left;\n    /* color: transparent; */\n    background: transparent;\n    background-color: transparent;\n    font-family: 'Arial', sans-serif;\n  }\n  \n  .title {\n    font-size: 4rem;\n    font-weight: bold;\n  }\n  \n  .subtitle {\n    /* font-size: 1.5rem;\n    margin-top: 10px; */\n  }\n  "],
+  "mappings": ";AAAA;AAEI;;;;ACFJ;AACI;AAGA;AACA;AAEA;AACA;AACA;;AAGF;AACE;AACA;;AAGF;;",
+  "names": []
+}
