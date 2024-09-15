@@ -1,33 +1,17 @@
 // Header.jsx
 import "./HeaderPage.css";
 
-function downloadPdf() {
+let downloadPdf = () => {
   // Replace 'pdf_filename.pdf' with the actual name of your PDF file
-  const pdfUrl = 'https://'+ window.location.hostname + '/Resources/KuhandranResume2024.pdf';
+  let pdfUrl="";
+  if (window.location.hostname == 'localhost'){
+     pdfUrl = 'http://'+ window.location.hostname + ':' + window.location.port + '/Resources/KuhandranResume2024.pdf';
+  }else{
+    pdfUrl = 'http://'+ window.location.hostname + '/Resources/KuhandranResume2024.pdf';
+  }
   
-  fetch(pdfUrl)
-    .then(response => {
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      return response.blob();
-    })
-    .then(blob => {
-      // Create a URL for the blob
-      const url = window.URL.createObjectURL(new Blob([blob]));
-      // Create a temporary link element
-      const link = document.createElement('a');
-      link.href = url;
-      // Set the filename for the PDF
-      link.setAttribute('download', 'your_pdf_filename.pdf');
-      // Append the link to the body
-      document.body.appendChild(link);
-      // Trigger the download
-      link.click();
-      // Cleanup
-      link.parentNode.removeChild(link);
-    })
-    .catch(error => console.error('There was a problem with the fetch operation:', error));
+  console.log(pdfUrl,'pdfUrl');
+  window.open(pdfUrl);
 }
 
 const HeaderPage = () => {

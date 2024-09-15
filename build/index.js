@@ -22,48 +22,40 @@ var init_2 = __esm({
 
 // app/components/HeaderPage/HeaderPage.jsx
 import { jsxDEV as jsxDEV2 } from "react/jsx-dev-runtime";
-function downloadPdf() {
-  let pdfUrl = "https://" + window.location.hostname + "/Resources/KuhandranResume2024.pdf";
-  fetch(pdfUrl).then((response) => {
-    if (!response.ok)
-      throw new Error("Network response was not ok");
-    return response.blob();
-  }).then((blob) => {
-    let url = window.URL.createObjectURL(new Blob([blob])), link = document.createElement("a");
-    link.href = url, link.setAttribute("download", "your_pdf_filename.pdf"), document.body.appendChild(link), link.click(), link.parentNode.removeChild(link);
-  }).catch((error) => console.error("There was a problem with the fetch operation:", error));
-}
-var HeaderPage, HeaderPage_default, init_HeaderPage = __esm({
+var downloadPdf, HeaderPage, HeaderPage_default, init_HeaderPage = __esm({
   "app/components/HeaderPage/HeaderPage.jsx"() {
     "use strict";
     init_2();
-    HeaderPage = () => /* @__PURE__ */ jsxDEV2("div", { className: "relative", children: /* @__PURE__ */ jsxDEV2("div", { className: "max-w-[530px] lg:max-w-[750px]", children: [
+    downloadPdf = () => {
+      let pdfUrl = "";
+      window.location.hostname == "localhost" ? pdfUrl = "http://" + window.location.hostname + ":" + window.location.port + "/Resources/KuhandranResume2024.pdf" : pdfUrl = "http://" + window.location.hostname + "/Resources/KuhandranResume2024.pdf", console.log(pdfUrl, "pdfUrl"), window.open(pdfUrl);
+    }, HeaderPage = () => /* @__PURE__ */ jsxDEV2("div", { className: "relative", children: /* @__PURE__ */ jsxDEV2("div", { className: "max-w-[530px] lg:max-w-[750px]", children: [
       /* @__PURE__ */ jsxDEV2("h1", { className: "text-3xl font-bold  sm:text-4xl lg:text-5xl xl:text-6xl", children: "Kuhandran Samudrapandiyan" }, void 0, !1, {
         fileName: "app/components/HeaderPage/HeaderPage.jsx",
-        lineNumber: 37,
+        lineNumber: 21,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ jsxDEV2("div", { className: "subtimax-w-[500px] mt-6 text-lg font-medium xl:max-w-lg md:text-xl 2xl:text-100 xl:leading-snug lg:text-2xltle", children: "Experienced in project management, React development, Scrum Master, banking, insurance, regulatory, fintech, JavaScript, Redux, Webpack." }, void 0, !1, {
         fileName: "app/components/HeaderPage/HeaderPage.jsx",
-        lineNumber: 38,
+        lineNumber: 22,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ jsxDEV2("div", { className: "flex flex-row justify-between px-3 py-4 sm:px-8 xl:px-12 lg:py-10", children: /* @__PURE__ */ jsxDEV2("button", { onClick: downloadPdf, className: "bg-amber-200 hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow", children: "Download resume" }, void 0, !1, {
         fileName: "app/components/HeaderPage/HeaderPage.jsx",
-        lineNumber: 40,
+        lineNumber: 24,
         columnNumber: 9
       }, this) }, void 0, !1, {
         fileName: "app/components/HeaderPage/HeaderPage.jsx",
-        lineNumber: 39,
+        lineNumber: 23,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/HeaderPage/HeaderPage.jsx",
-      lineNumber: 36,
+      lineNumber: 20,
       columnNumber: 7
     }, this) }, void 0, !1, {
       fileName: "app/components/HeaderPage/HeaderPage.jsx",
-      lineNumber: 35,
+      lineNumber: 19,
       columnNumber: 5
     }, this), HeaderPage_default = HeaderPage;
   }
@@ -488,7 +480,7 @@ import {
 } from "@remix-run/react";
 
 // css-bundle-plugin-ns:@remix-run/css-bundle
-var cssBundleHref = "/build/css-bundle-YKAVMBED.css";
+var cssBundleHref = "/build/css-bundle-O6EQ64VU.css";
 
 // app/root.tsx
 import { jsxDEV } from "react/jsx-dev-runtime";
@@ -631,7 +623,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-GVEUOY5R.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-M3SCSKV2.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-TSBYFMHC.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-TG42SU5U.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-CEFOX4RL.js", imports: ["/build/_shared/chunk-NCTFXLPJ.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/header": { id: "routes/header", parentId: "root", path: "header", index: void 0, caseSensitive: void 0, module: "/build/routes/header-6SMGC6M5.js", imports: ["/build/_shared/chunk-NCTFXLPJ.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/projects": { id: "routes/projects", parentId: "root", path: "projects", index: void 0, caseSensitive: void 0, module: "/build/routes/projects-SCSWS2W4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "f7d4e5b7", hmr: { runtime: "/build/_shared/chunk-TSBYFMHC.js", timestamp: 1707708226273 }, url: "/build/manifest-F7D4E5B7.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-GVEUOY5R.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-M3SCSKV2.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-TSBYFMHC.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-V7VEZ7N7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-XWB5M2KO.js", imports: ["/build/_shared/chunk-NA6ULHIU.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/header": { id: "routes/header", parentId: "root", path: "header", index: void 0, caseSensitive: void 0, module: "/build/routes/header-RPOK47CG.js", imports: ["/build/_shared/chunk-NA6ULHIU.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/projects": { id: "routes/projects", parentId: "root", path: "projects", index: void 0, caseSensitive: void 0, module: "/build/routes/projects-SCSWS2W4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "65e3a95a", hmr: { runtime: "/build/_shared/chunk-TSBYFMHC.js", timestamp: 1726391906586 }, url: "/build/manifest-65E3A95A.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var mode = "development", assetsBuildDirectory = "public/build", future = { v3_fetcherPersist: !1, v3_relativeSplatPath: !1, v3_throwAbortReason: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
