@@ -1,5 +1,6 @@
 import React from 'react';
 import { lazy } from 'react';
+
 const HeaderBackground = lazy(() => import("../components/HeaderBackground/HeaderBackground"));
 const HeaderNavigation = lazy(() => import("../components/HeaderNavigation/HeaderNavigation"));
 const ContentContainer = lazy(() => import("../components/ContentContainer/ContentContainer"));

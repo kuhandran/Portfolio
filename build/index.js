@@ -480,7 +480,7 @@ import {
 } from "@remix-run/react";
 
 // css-bundle-plugin-ns:@remix-run/css-bundle
-var cssBundleHref = "/build/css-bundle-O6EQ64VU.css";
+var cssBundleHref = "/build/css-bundle-4X4EJB6O.css";
 
 // app/root.tsx
 import { jsxDEV } from "react/jsx-dev-runtime";
@@ -565,32 +565,32 @@ function Headers() {
   return /* @__PURE__ */ jsxDEV9(React.Fragment, { children: [
     /* @__PURE__ */ jsxDEV9(HeaderNavigation2, {}, void 0, !1, {
       fileName: "app/routes/header.jsx",
-      lineNumber: 13,
+      lineNumber: 14,
       columnNumber: 13
     }, this),
     /* @__PURE__ */ jsxDEV9(HeaderBackground2, {}, void 0, !1, {
       fileName: "app/routes/header.jsx",
-      lineNumber: 14,
+      lineNumber: 15,
       columnNumber: 13
     }, this),
     /* @__PURE__ */ jsxDEV9(ContentContainer2, {}, void 0, !1, {
       fileName: "app/routes/header.jsx",
-      lineNumber: 15,
+      lineNumber: 16,
       columnNumber: 13
     }, this),
     /* @__PURE__ */ jsxDEV9(MilestoneContainer2, {}, void 0, !1, {
       fileName: "app/routes/header.jsx",
-      lineNumber: 16,
+      lineNumber: 17,
       columnNumber: 13
     }, this),
     /* @__PURE__ */ jsxDEV9(FooterContainer2, {}, void 0, !1, {
       fileName: "app/routes/header.jsx",
-      lineNumber: 17,
+      lineNumber: 18,
       columnNumber: 13
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/header.jsx",
-    lineNumber: 12,
+    lineNumber: 13,
     columnNumber: 9
   }, this);
 }
@@ -623,10 +623,10 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-GVEUOY5R.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-M3SCSKV2.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-TSBYFMHC.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-V7VEZ7N7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-WKFLLRN7.js", imports: ["/build/_shared/chunk-Q3LHSQ7T.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/header": { id: "routes/header", parentId: "root", path: "header", index: void 0, caseSensitive: void 0, module: "/build/routes/header-7HTAXZZJ.js", imports: ["/build/_shared/chunk-Q3LHSQ7T.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/projects": { id: "routes/projects", parentId: "root", path: "projects", index: void 0, caseSensitive: void 0, module: "/build/routes/projects-SCSWS2W4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "4ac2d1f7", hmr: { runtime: "/build/_shared/chunk-TSBYFMHC.js", timestamp: 1726395016977 }, url: "/build/manifest-4AC2D1F7.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-33LF4SNI.js", imports: ["/build/_shared/chunk-O4BRYNJ4.js", "/build/_shared/chunk-56FBVUI2.js", "/build/_shared/chunk-U4FRFQSK.js", "/build/_shared/chunk-XGOTYLZ5.js", "/build/_shared/chunk-7M6SC7J5.js", "/build/_shared/chunk-TSBYFMHC.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-G7XCVLKF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-FJ3F355W.js", imports: ["/build/_shared/chunk-IDLEPNEI.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/header": { id: "routes/header", parentId: "root", path: "header", index: void 0, caseSensitive: void 0, module: "/build/routes/header-5W5DKESV.js", imports: ["/build/_shared/chunk-IDLEPNEI.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/projects": { id: "routes/projects", parentId: "root", path: "projects", index: void 0, caseSensitive: void 0, module: "/build/routes/projects-SCSWS2W4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "9e898b55", hmr: { runtime: "/build/_shared/chunk-TSBYFMHC.js", timestamp: 1726480296959 }, url: "/build/manifest-9E898B55.js" };
 
 // server-entry-module:@remix-run/dev/server-build
-var mode = "development", assetsBuildDirectory = "public/build", future = { v3_fetcherPersist: !1, v3_relativeSplatPath: !1, v3_throwAbortReason: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
+var mode = "development", assetsBuildDirectory = "public/build", future = { v3_fetcherPersist: !1, v3_relativeSplatPath: !1, v3_throwAbortReason: !1, unstable_singleFetch: !1, unstable_lazyRouteDiscovery: !1, unstable_optimizeDeps: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
   root: {
     id: "root",
     parentId: void 0,
