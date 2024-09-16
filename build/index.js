@@ -480,7 +480,7 @@ import {
 } from "@remix-run/react";
 
 // css-bundle-plugin-ns:@remix-run/css-bundle
-var cssBundleHref = "/build/css-bundle-4X4EJB6O.css";
+var cssBundleHref = "/build/css-bundle-K2SBPRVW.css";
 
 // app/root.tsx
 import { jsxDEV } from "react/jsx-dev-runtime";
@@ -496,48 +496,48 @@ function App() {
     /* @__PURE__ */ jsxDEV("head", { children: [
       /* @__PURE__ */ jsxDEV(Meta, {}, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 30,
+        lineNumber: 34,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ jsxDEV(Links, {}, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 31,
-        columnNumber: 9
-      }, this)
-    ] }, void 0, !0, {
-      fileName: "app/root.tsx",
-      lineNumber: 29,
-      columnNumber: 7
-    }, this),
-    /* @__PURE__ */ jsxDEV("body", { children: [
-      /* @__PURE__ */ jsxDEV(Outlet, {}, void 0, !1, {
-        fileName: "app/root.tsx",
-        lineNumber: 34,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ jsxDEV(ScrollRestoration, {}, void 0, !1, {
-        fileName: "app/root.tsx",
         lineNumber: 35,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ jsxDEV(Scripts, {}, void 0, !1, {
-        fileName: "app/root.tsx",
-        lineNumber: 36,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ jsxDEV(LiveReload, {}, void 0, !1, {
-        fileName: "app/root.tsx",
-        lineNumber: 37,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/root.tsx",
       lineNumber: 33,
       columnNumber: 7
+    }, this),
+    /* @__PURE__ */ jsxDEV("body", { children: [
+      /* @__PURE__ */ jsxDEV(Outlet, {}, void 0, !1, {
+        fileName: "app/root.tsx",
+        lineNumber: 38,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ jsxDEV(ScrollRestoration, {}, void 0, !1, {
+        fileName: "app/root.tsx",
+        lineNumber: 39,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ jsxDEV(Scripts, {}, void 0, !1, {
+        fileName: "app/root.tsx",
+        lineNumber: 40,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ jsxDEV(LiveReload, {}, void 0, !1, {
+        fileName: "app/root.tsx",
+        lineNumber: 41,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, !0, {
+      fileName: "app/root.tsx",
+      lineNumber: 37,
+      columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/root.tsx",
-    lineNumber: 28,
+    lineNumber: 32,
     columnNumber: 5
   }, this);
 }
@@ -596,8 +596,68 @@ function Headers() {
 }
 
 // app/routes/_index.tsx
+import React4 from "react";
+
+// app/config.js
+import ChatBotKit from "react-chatbot-kit";
+var createChatBotMessage = ChatBotKit.createChatBotMessage, config = {
+  initialMessages: [createChatBotMessage("Hello world")]
+}, config_default = config;
+
+// app/MessageParser.jsx
 import React2 from "react";
 import { jsxDEV as jsxDEV10 } from "react/jsx-dev-runtime";
+var MessageParser = ({ children, actions }) => {
+  let parse = (message) => {
+    console.log(message);
+  };
+  return /* @__PURE__ */ jsxDEV10("div", { children: React2.Children.map(children, (child) => React2.cloneElement(child, {
+    parse,
+    actions: {}
+  })) }, void 0, !1, {
+    fileName: "app/MessageParser.jsx",
+    lineNumber: 9,
+    columnNumber: 5
+  }, this);
+}, MessageParser_default = MessageParser;
+
+// app/ActionProvider.jsx
+import React3 from "react";
+import { jsxDEV as jsxDEV11 } from "react/jsx-dev-runtime";
+var ActionProvider = ({ createChatBotMessage: createChatBotMessage2, setState, children }) => /* @__PURE__ */ jsxDEV11("div", { children: React3.Children.map(children, (child) => React3.cloneElement(child, {
+  actions: {}
+})) }, void 0, !1, {
+  fileName: "app/ActionProvider.jsx",
+  lineNumber: 5,
+  columnNumber: 5
+}, this), ActionProvider_default = ActionProvider;
+
+// app/ChatbotComponent.jsx
+import pkg from "react-chatbot-kit";
+import { jsxDEV as jsxDEV12 } from "react/jsx-dev-runtime";
+var { Chatbot } = pkg, ChatbotComponent = () => /* @__PURE__ */ jsxDEV12("div", { children: /* @__PURE__ */ jsxDEV12(
+  Chatbot,
+  {
+    config: config_default,
+    messageParser: MessageParser_default,
+    actionProvider: ActionProvider_default
+  },
+  void 0,
+  !1,
+  {
+    fileName: "app/ChatbotComponent.jsx",
+    lineNumber: 11,
+    columnNumber: 7
+  },
+  this
+) }, void 0, !1, {
+  fileName: "app/ChatbotComponent.jsx",
+  lineNumber: 10,
+  columnNumber: 5
+}, this);
+
+// app/routes/_index.tsx
+import { jsxDEV as jsxDEV13 } from "react/jsx-dev-runtime";
 function headers({
   loaderHeaders,
   parentHeaders
@@ -611,19 +671,26 @@ function headers({
   };
 }
 function Index() {
-  return /* @__PURE__ */ jsxDEV10(React2.Fragment, { children: /* @__PURE__ */ jsxDEV10(Headers, {}, void 0, !1, {
+  return /* @__PURE__ */ jsxDEV13(React4.Fragment, { children: [
+    /* @__PURE__ */ jsxDEV13(Headers, {}, void 0, !1, {
+      fileName: "app/routes/_index.tsx",
+      lineNumber: 26,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ jsxDEV13(ChatbotComponent, {}, void 0, !1, {
+      fileName: "app/routes/_index.tsx",
+      lineNumber: 27,
+      columnNumber: 7
+    }, this)
+  ] }, void 0, !0, {
     fileName: "app/routes/_index.tsx",
     lineNumber: 25,
-    columnNumber: 7
-  }, this) }, void 0, !1, {
-    fileName: "app/routes/_index.tsx",
-    lineNumber: 24,
     columnNumber: 5
   }, this);
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-33LF4SNI.js", imports: ["/build/_shared/chunk-O4BRYNJ4.js", "/build/_shared/chunk-56FBVUI2.js", "/build/_shared/chunk-U4FRFQSK.js", "/build/_shared/chunk-XGOTYLZ5.js", "/build/_shared/chunk-7M6SC7J5.js", "/build/_shared/chunk-TSBYFMHC.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-G7XCVLKF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-FJ3F355W.js", imports: ["/build/_shared/chunk-IDLEPNEI.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/header": { id: "routes/header", parentId: "root", path: "header", index: void 0, caseSensitive: void 0, module: "/build/routes/header-5W5DKESV.js", imports: ["/build/_shared/chunk-IDLEPNEI.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/projects": { id: "routes/projects", parentId: "root", path: "projects", index: void 0, caseSensitive: void 0, module: "/build/routes/projects-SCSWS2W4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "9e898b55", hmr: { runtime: "/build/_shared/chunk-TSBYFMHC.js", timestamp: 1726480296959 }, url: "/build/manifest-9E898B55.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-33LF4SNI.js", imports: ["/build/_shared/chunk-O4BRYNJ4.js", "/build/_shared/chunk-56FBVUI2.js", "/build/_shared/chunk-U4FRFQSK.js", "/build/_shared/chunk-XGOTYLZ5.js", "/build/_shared/chunk-7M6SC7J5.js", "/build/_shared/chunk-TSBYFMHC.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-W7ECDNRX.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-RWO3MRNQ.js", imports: ["/build/_shared/chunk-IDLEPNEI.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/header": { id: "routes/header", parentId: "root", path: "header", index: void 0, caseSensitive: void 0, module: "/build/routes/header-5W5DKESV.js", imports: ["/build/_shared/chunk-IDLEPNEI.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/projects": { id: "routes/projects", parentId: "root", path: "projects", index: void 0, caseSensitive: void 0, module: "/build/routes/projects-SCSWS2W4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "5870632d", hmr: { runtime: "/build/_shared/chunk-TSBYFMHC.js", timestamp: 1726482834591 }, url: "/build/manifest-5870632D.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var mode = "development", assetsBuildDirectory = "public/build", future = { v3_fetcherPersist: !1, v3_relativeSplatPath: !1, v3_throwAbortReason: !1, unstable_singleFetch: !1, unstable_lazyRouteDiscovery: !1, unstable_optimizeDeps: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

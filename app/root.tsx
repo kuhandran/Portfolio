@@ -10,6 +10,10 @@ import {
 import "./root.css";
 import "~/tailwind.css";
 import { cssBundleHref } from "@remix-run/css-bundle";
+import 'react-chatbot-kit/build/main.css';
+import {ChatbotComponent} from "./ChatbotComponent.jsx";
+
+
 
 export const meta: MetaFunction = () => [{
   charset: "utf-8",

@@ -1,5 +1,6 @@
 import Headers from './header.jsx';
 import React from 'react';
+import { ChatbotComponent } from '~/ChatbotComponent.jsx';
 
 
 export function headers({
@@ -23,6 +24,7 @@ export default function Index() {
   return (
     <React.Fragment>
       <Headers/>
+      <ChatbotComponent/>
     </React.Fragment>
   );
 }
