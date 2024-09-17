@@ -11,14 +11,15 @@ import "./root.css";
 import "~/tailwind.css";
 import { cssBundleHref } from "@remix-run/css-bundle";
 import 'react-chatbot-kit/build/main.css';
-import {ChatbotComponent} from "./ChatbotComponent.jsx";
-
 
 
 export const meta: MetaFunction = () => [{
   charset: "utf-8",
   title: "Kuhandran Portfolio",
   viewport: "width=device-width,initial-scale=1",
+  content:"width=device-width",
+  initial:"scale=1",
+  name:"viewport"
 }];
 
 export const links: LinksFunction = () => [
@@ -31,7 +32,7 @@ export default function App() {
   return (
     <html lang="en">
       <head>
-        <Meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <Meta/>
         <Links />
       </head>
       <body>
