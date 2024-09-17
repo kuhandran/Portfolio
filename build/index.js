@@ -480,7 +480,7 @@ import {
 } from "@remix-run/react";
 
 // css-bundle-plugin-ns:@remix-run/css-bundle
-var cssBundleHref = "/build/css-bundle-K2SBPRVW.css";
+var cssBundleHref = "/build/css-bundle-QBDMXBT4.css";
 
 // app/root.tsx
 import { jsxDEV } from "react/jsx-dev-runtime";
@@ -596,68 +596,162 @@ function Headers() {
 }
 
 // app/routes/_index.tsx
-import React4 from "react";
+import React6 from "react";
+
+// app/ChatbotComponent.jsx
+import { useState as useState2 } from "react";
 
 // app/config.js
-import ChatBotKit from "react-chatbot-kit";
-var createChatBotMessage = ChatBotKit.createChatBotMessage, config = {
-  initialMessages: [createChatBotMessage("Hello world")]
+import pkg from "react-chatbot-kit";
+
+// app/DogPicture.jsx
+import { useEffect, useState } from "react";
+import { jsxDEV as jsxDEV10 } from "react/jsx-dev-runtime";
+var DogPicture = () => {
+  let [imageUrl, setImageUrl] = useState("");
+  return useEffect(() => {
+    fetch("https://dog.ceo/api/breeds/image/random").then((res) => res.json()).then((data2) => {
+      setImageUrl(data2.message);
+    });
+  }, []), /* @__PURE__ */ jsxDEV10("div", { children: /* @__PURE__ */ jsxDEV10("img", { src: imageUrl, alt: "a dog" }, void 0, !1, {
+    fileName: "app/DogPicture.jsx",
+    lineNumber: 17,
+    columnNumber: 7
+  }, this) }, void 0, !1, {
+    fileName: "app/DogPicture.jsx",
+    lineNumber: 16,
+    columnNumber: 5
+  }, this);
+}, DogPicture_default = DogPicture;
+
+// app/config.js
+import { jsxDEV as jsxDEV11 } from "react/jsx-dev-runtime";
+var { createChatBotMessage } = pkg, botName = "Kuhan", config = {
+  initialMessages: [createChatBotMessage(`Hi! I'm ${botName}`)],
+  widgets: [
+    {
+      widgetName: "dogPicture",
+      widgetFunc: (props) => /* @__PURE__ */ jsxDEV11(DogPicture_default, { ...props }, void 0, !1, {
+        fileName: "app/config.js",
+        lineNumber: 15,
+        columnNumber: 30
+      }, this)
+    }
+  ]
 }, config_default = config;
 
 // app/MessageParser.jsx
-import React2 from "react";
-import { jsxDEV as jsxDEV10 } from "react/jsx-dev-runtime";
+import React3 from "react";
+import { jsxDEV as jsxDEV12 } from "react/jsx-dev-runtime";
 var MessageParser = ({ children, actions }) => {
   let parse = (message) => {
-    console.log(message);
+    message.includes("hello") && actions.handleHello(), message.includes("dog") && actions.handleDog();
   };
-  return /* @__PURE__ */ jsxDEV10("div", { children: React2.Children.map(children, (child) => React2.cloneElement(child, {
+  return /* @__PURE__ */ jsxDEV12("div", { children: React3.Children.map(children, (child) => React3.cloneElement(child, {
     parse,
-    actions: {}
+    actions
   })) }, void 0, !1, {
     fileName: "app/MessageParser.jsx",
-    lineNumber: 9,
+    lineNumber: 15,
     columnNumber: 5
   }, this);
 }, MessageParser_default = MessageParser;
 
 // app/ActionProvider.jsx
-import React3 from "react";
-import { jsxDEV as jsxDEV11 } from "react/jsx-dev-runtime";
-var ActionProvider = ({ createChatBotMessage: createChatBotMessage2, setState, children }) => /* @__PURE__ */ jsxDEV11("div", { children: React3.Children.map(children, (child) => React3.cloneElement(child, {
-  actions: {}
-})) }, void 0, !1, {
-  fileName: "app/ActionProvider.jsx",
-  lineNumber: 5,
-  columnNumber: 5
-}, this), ActionProvider_default = ActionProvider;
+import React4 from "react";
+import { jsxDEV as jsxDEV13 } from "react/jsx-dev-runtime";
+var ActionProvider = ({ createChatBotMessage: createChatBotMessage2, setState, children }) => {
+  let handleHello = () => {
+    let botMessage = createChatBotMessage2("Hello. Nice to meet you.");
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage]
+    }));
+  }, handleDog = () => {
+    let botMessage = createChatBotMessage2(
+      "Here's a nice dog picture for you!",
+      {
+        widget: "dogPicture"
+      }
+    );
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage]
+    }));
+  };
+  return /* @__PURE__ */ jsxDEV13("div", { children: React4.Children.map(children, (child) => React4.cloneElement(child, {
+    actions: {
+      handleHello,
+      handleDog
+    }
+  })) }, void 0, !1, {
+    fileName: "app/ActionProvider.jsx",
+    lineNumber: 29,
+    columnNumber: 5
+  }, this);
+}, ActionProvider_default = ActionProvider;
 
 // app/ChatbotComponent.jsx
-import pkg from "react-chatbot-kit";
-import { jsxDEV as jsxDEV12 } from "react/jsx-dev-runtime";
-var { Chatbot } = pkg, ChatbotComponent = () => /* @__PURE__ */ jsxDEV12("div", { children: /* @__PURE__ */ jsxDEV12(
-  Chatbot,
-  {
-    config: config_default,
-    messageParser: MessageParser_default,
-    actionProvider: ActionProvider_default
-  },
-  void 0,
-  !1,
-  {
+import pkg2 from "react-chatbot-kit";
+import data from "react-util-kit";
+import { jsxDEV as jsxDEV14 } from "react/jsx-dev-runtime";
+var { Chatbot } = pkg2, { ConditionallyRender } = data, ChatbotComponent = () => {
+  let [showChatbot, toggleChatbot] = useState2(!1);
+  return /* @__PURE__ */ jsxDEV14("div", { className: "app-chatbot-container", children: [
+    /* @__PURE__ */ jsxDEV14(
+      ConditionallyRender,
+      {
+        ifTrue: showChatbot,
+        show: /* @__PURE__ */ jsxDEV14(
+          Chatbot,
+          {
+            config: config_default,
+            messageParser: MessageParser_default,
+            actionProvider: ActionProvider_default
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/ChatbotComponent.jsx",
+            lineNumber: 22,
+            columnNumber: 9
+          },
+          this
+        )
+      },
+      void 0,
+      !1,
+      {
+        fileName: "app/ChatbotComponent.jsx",
+        lineNumber: 19,
+        columnNumber: 7
+      },
+      this
+    ),
+    /* @__PURE__ */ jsxDEV14(
+      "button",
+      {
+        className: "app-chatbot-button",
+        onClick: () => toggleChatbot((prev) => !prev)
+      },
+      void 0,
+      !1,
+      {
+        fileName: "app/ChatbotComponent.jsx",
+        lineNumber: 29,
+        columnNumber: 7
+      },
+      this
+    )
+  ] }, void 0, !0, {
     fileName: "app/ChatbotComponent.jsx",
-    lineNumber: 11,
-    columnNumber: 7
-  },
-  this
-) }, void 0, !1, {
-  fileName: "app/ChatbotComponent.jsx",
-  lineNumber: 10,
-  columnNumber: 5
-}, this);
+    lineNumber: 18,
+    columnNumber: 5
+  }, this);
+};
 
 // app/routes/_index.tsx
-import { jsxDEV as jsxDEV13 } from "react/jsx-dev-runtime";
+import { jsxDEV as jsxDEV15 } from "react/jsx-dev-runtime";
 function headers({
   loaderHeaders,
   parentHeaders
@@ -671,26 +765,26 @@ function headers({
   };
 }
 function Index() {
-  return /* @__PURE__ */ jsxDEV13(React4.Fragment, { children: [
-    /* @__PURE__ */ jsxDEV13(Headers, {}, void 0, !1, {
-      fileName: "app/routes/_index.tsx",
-      lineNumber: 26,
-      columnNumber: 7
-    }, this),
-    /* @__PURE__ */ jsxDEV13(ChatbotComponent, {}, void 0, !1, {
+  return /* @__PURE__ */ jsxDEV15(React6.Fragment, { children: [
+    /* @__PURE__ */ jsxDEV15(Headers, {}, void 0, !1, {
       fileName: "app/routes/_index.tsx",
       lineNumber: 27,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ jsxDEV15(ChatbotComponent, {}, void 0, !1, {
+      fileName: "app/routes/_index.tsx",
+      lineNumber: 28,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/_index.tsx",
-    lineNumber: 25,
+    lineNumber: 26,
     columnNumber: 5
   }, this);
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-33LF4SNI.js", imports: ["/build/_shared/chunk-O4BRYNJ4.js", "/build/_shared/chunk-56FBVUI2.js", "/build/_shared/chunk-U4FRFQSK.js", "/build/_shared/chunk-XGOTYLZ5.js", "/build/_shared/chunk-7M6SC7J5.js", "/build/_shared/chunk-TSBYFMHC.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-W7ECDNRX.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-RWO3MRNQ.js", imports: ["/build/_shared/chunk-IDLEPNEI.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/header": { id: "routes/header", parentId: "root", path: "header", index: void 0, caseSensitive: void 0, module: "/build/routes/header-5W5DKESV.js", imports: ["/build/_shared/chunk-IDLEPNEI.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/projects": { id: "routes/projects", parentId: "root", path: "projects", index: void 0, caseSensitive: void 0, module: "/build/routes/projects-SCSWS2W4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "5870632d", hmr: { runtime: "/build/_shared/chunk-TSBYFMHC.js", timestamp: 1726482834591 }, url: "/build/manifest-5870632D.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-33LF4SNI.js", imports: ["/build/_shared/chunk-O4BRYNJ4.js", "/build/_shared/chunk-56FBVUI2.js", "/build/_shared/chunk-U4FRFQSK.js", "/build/_shared/chunk-XGOTYLZ5.js", "/build/_shared/chunk-7M6SC7J5.js", "/build/_shared/chunk-TSBYFMHC.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-ABAWMXY6.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-UQA7UGMO.js", imports: ["/build/_shared/chunk-IDLEPNEI.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/header": { id: "routes/header", parentId: "root", path: "header", index: void 0, caseSensitive: void 0, module: "/build/routes/header-5W5DKESV.js", imports: ["/build/_shared/chunk-IDLEPNEI.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/projects": { id: "routes/projects", parentId: "root", path: "projects", index: void 0, caseSensitive: void 0, module: "/build/routes/projects-SCSWS2W4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "e4f69c8e", hmr: { runtime: "/build/_shared/chunk-TSBYFMHC.js", timestamp: 1726547265928 }, url: "/build/manifest-E4F69C8E.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var mode = "development", assetsBuildDirectory = "public/build", future = { v3_fetcherPersist: !1, v3_relativeSplatPath: !1, v3_throwAbortReason: !1, unstable_singleFetch: !1, unstable_lazyRouteDiscovery: !1, unstable_optimizeDeps: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
