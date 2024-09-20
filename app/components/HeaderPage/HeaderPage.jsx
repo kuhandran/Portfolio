@@ -3,7 +3,7 @@ import "./HeaderPage.css";
 
 let downloadPdf = () => {
   // Replace 'pdf_filename.pdf' with the actual name of your PDF file
-  fetch('https://your-api-endpoint/.netlify/functions/data')
+  fetch('https://ksportfoliobe.netlify.app/.netlify/functions/data')
   .then(response => response.json()) 
   .then(data => console.log(data))
   .catch(error => console.error('Error fetching data:', error));
